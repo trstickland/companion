@@ -4,8 +4,9 @@ services:
    - docker
    
 env:
-  global:
-    - ROOTDIR="$TRAVIS_BUILD_DIR"
+  matrix:
+   - DOCKER_IMAGE=sangerpathogens/companion
+   - DOCKER_IMAGE=trstickland/companion
     
 before_install:
   - # docker build -t companion_image .
