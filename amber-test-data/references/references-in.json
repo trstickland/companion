@@ -25,9 +25,18 @@
       "augustus_model": "../../data/augustus/species/trypanosoma_brucei_927_sampled/",
       "chromosome_pattern" : "Tb927_(%d+)_v%d"
     },
+    "Ehis" : {
+      "gff" : "../genomes/EhistolyticaHM1IMSS.gff3",
+      "genome" : "../genomes/Ehis_amber.fasta",
+      "gaf" : "../genomes/EhistolyticaHM1IMSS_GO.gaf",
+      "name" : "Entamoeba_histolytica HM1IMSS",
+      "augustus_model": "../../data/augustus/species/entamoeba_histolytica/",
+      "chromosome_pattern" : "Ehis_(%d+)"
+    },
   },
   "groups" : {
     "Leishmania" : ["LmjF.1", "LbrM.1"],
-    "Trypanosoma" : ["Tb927.1"]
+    "Trypanosoma" : ["Tb927.1"],
+    "Entamoeba" : ["Ehis.1"]
   }
 }
