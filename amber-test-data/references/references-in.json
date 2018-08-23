@@ -27,7 +27,7 @@
     },
     "Ehis" : {
       "gff" : "../genomes/EhistolyticaHM1IMSS.gff3",
-      "genome" : "../genomes/Ehis_amber.fasta",
+      "genome" : "../genomes/EhistolyticaHM1IMSS_Genome.fasta",
       "gaf" : "../genomes/EhistolyticaHM1IMSS_GO.gaf",
       "name" : "Entamoeba_histolytica HM1IMSS",
       "augustus_model": "../../data/augustus/species/entamoeba_histolytica/",
