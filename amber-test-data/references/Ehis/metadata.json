@@ -1,0 +1,10 @@
+{
+  "chr_mapping":[],
+  "augustus_model":true,
+  "name":"Entamoeba_histolytica HM1IMSS",
+  "nof_chromosomes":0,
+  "nof_coding_genes":8306,
+  "nof_genes":8333,
+  "nof_regions":841,
+  "chromosome_pattern":"Ehis_(%d+)"
+}
