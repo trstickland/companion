@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <title>
+      Speck &ndash; report for /opt/data/speck/output_check.lua    </title>
+    <style>
+    .collapsibleList li {
+      cursor:auto;
+      list-style: none;
+      padding: 0px;
+      float: none;
+      width: 100%;
+      clear:both;
+    }
+    .ok:before {
+      color: green;
+    }
+    .fail:before {
+      color:red;
+    }
+    .err:before {
+      color: purple;
+    }
+    ul li.collapsibleListOpen:before {
+        content: '\25BC';
+        float: left;
+        cursor:pointer;
+        margin: 0 0.2em;
+    }
+    li.collapsibleListClosed {
+      cursor:pointer;
+    }
+    ul li.collapsibleListClosed:before {
+        content: '\25BA';
+        float: left;
+        cursor:pointer;
+        margin: 0 0.2em;
+    }
+    ul li:before {
+        /* content: '\26AA';
+        margin: 0 1em; */
+    }
+     body, html {
+          height: 100%;
+          margin: 0;
+          font-family: helvetica;
+      }
+      .tabs input[type=radio] {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      .content {
+        width: 80%;
+        height: 100%;
+        float: none;
+        list-style: none;
+        padding: 0;
+        margin: 75px auto;
+      }
+      .tabs {
+        width: 100%;
+        float: none;
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin-bottom: 60px;
+      }
+      .tabs li{
+        float: left;
+      }
+      .tabs label {
+          display: block;
+          padding: 10px 20px;
+          border-radius: 2px 2px 0 0;
+          font-weight: normal;
+          background: #F7F7F7;
+          cursor: pointer;
+          position: relative;
+          top: 3px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+      }
+      .tabs label:hover {
+        background: rgba(255,255,255,0.5);
+        top: 0;
+      }
+      [id^=tab]:checked + label {
+        background: #EEEEEE;
+        top: 0;
+      }
+      [id^=tab]:checked ~ [id^=tab-content] {
+          display: block;
+      }
+      .tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        line-height: 140%;
+        background: #EEE;
+        padding: 15px;
+        position: absolute;
+        left: 0;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+      }
+      .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -55px;
+      }
+      .footer, .push {
+        height: 55px;
+      }
+      .boxx {
+        background: #FAFAFA;
+        border: 1px dotted #FAFAFA;
+        margin: 3px;
+      }
+      .subheader {
+        font-size: small;
+      }
+      .overflowed {
+        width: 100%;
+        clear: both;
+        overflow: auto;
+      }
+    </style>
+    <script>var runOnLoad=function(c,o,d,e){function x(){for(e=1;c.length;)c.shift()()}o[d]?(document[d]('DOMContentLoaded',x,0),o[d]('load',x,0)):o.attachEvent('onload',x);return function(t){e?o.setTimeout(t,0):c.push(t)}}([],window,'addEventListener');</script>
+
+    <script type="text/javascript">
+
+    var CollapsibleLists =
+    new function(){
+      this.apply = function(doNotRecurse){
+        var uls = document.getElementsByTagName('ul');
+        for (var index = 0; index < uls.length; index ++){
+          if (uls[index].className.match(/(^| )collapsibleList( |$)/)){
+            this.applyTo(uls[index], true);
+            if (!doNotRecurse){
+              var subUls = uls[index].getElementsByTagName('ul');
+              for (var subIndex = 0; subIndex < subUls.length; subIndex ++){
+                subUls[subIndex].className += ' collapsibleList';
+              }
+            }
+          }
+        }
+      };
+      this.applyTo = function(node, doNotRecurse){
+        var lis = node.getElementsByTagName('li');
+        for (var index = 0; index < lis.length; index ++){
+          if (!doNotRecurse || node == lis[index].parentNode){
+            if (lis[index].addEventListener){
+              lis[index].addEventListener(
+                  'mousedown', function (e){ e.preventDefault(); }, false);
+            }else{
+              lis[index].attachEvent(
+                  'onselectstart', function(){ event.returnValue = false; });
+            }
+            if (lis[index].addEventListener){
+              lis[index].addEventListener(
+                  'click', createClickListener(lis[index]), false);
+            }else{
+              lis[index].attachEvent(
+                  'onclick', createClickListener(lis[index]));
+            }
+            toggle(lis[index]);
+          }
+        }
+      };
+      function createClickListener(node){
+        return function(e){
+          if (!e) e = window.event;
+          var li = (e.target ? e.target : e.srcElement);
+          while (li.nodeName != 'LI') li = li.parentNode;
+          if (li == node) toggle(node);
+        };
+      }
+      function toggle(node){
+        var open = node.className.match(/(^| )collapsibleListClosed( |$)/);
+        var uls = node.getElementsByTagName('ul');
+        for (var index = 0; index < uls.length; index ++){
+          var li = uls[index];
+          while (li.nodeName != 'LI') li = li.parentNode;
+          if (li == node) uls[index].style.display = (open ? 'block' : 'none');
+        }
+        node.className =
+            node.className.replace(
+                /(^| )collapsibleList(Open|Closed)( |$)/, '');
+        if (uls.length > 0){
+          node.className += ' collapsibleList' + (open ? 'Open' : 'Closed');
+        }
+      }
+    }();
+    runOnLoad(function(){ CollapsibleLists.apply(); });
+
+    </script>
+    </head>
+<body>
+<div class="content wrapper">
+<h1>Validation report with specification <i>/opt/data/speck/output_check.lua</i></h1><ul class="tabs">
+<li>
+          <input type="radio" checked name="tabs" id="tab1">
+          <label for="tab1">Features</label>
+          <div id="tab-content1" class="tab-content animated fadeIn"><ul class="collapsibleList">
+<li class="ok"> contig
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as a root node
+</span><span style="float: right;">        successes  <span style="color: green;"> 2578</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 2578</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 2578</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> pseudogene
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has consistent strands across all children
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has only allowed child types
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;contains a pseudogenic_transcript
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;contains all child features within its coordinates
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as a root node
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;does not have a CDS overlapping a gap
+</span><span style="float: right;">        successes  <span style="color: green;"> 3</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> CDS
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 7550</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as child of an mRNA
+</span><span style="float: right;">        successes  <span style="color: green;"> 7550</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 7550</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> tRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 91</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 91</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 91</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> gap
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as a root node
+</span><span style="float: right;">        successes  <span style="color: green;"> 2576</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 2576</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 2576</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="fail"> snRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen fail">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 0</span> 
+        failures  <span style="color: red;"> 3</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 3</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 3</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="fail"> ncRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen fail">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 0</span> 
+        failures  <span style="color: red;"> 44</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 44</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 44</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="fail"> snoRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen fail">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 0</span> 
+        failures  <span style="color: red;"> 8</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="fail"> rRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen fail">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 0</span> 
+        failures  <span style="color: red;"> 15</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 15</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 15</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> pseudogenic_transcript
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a pseudogene
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has only allowed child types
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;contains at least one pseudogenic_exon
+</span><span style="float: right;">        successes  <span style="color: green;"> 8</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> pseudogenic_exon
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a pseudogenic_transcript
+</span><span style="float: right;">        successes  <span style="color: green;"> 16</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;should not have children
+</span><span style="float: right;">        successes  <span style="color: green;"> 16</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 16</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> gene
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has only allowed child types
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;does not overlap another protein coding gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has at least one valid child
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;does not have a CDS overlapping a gap
+</span><span style="float: right;">        successes  <span style="color: green;"> 191</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;contains all child features within its coordinates
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has consistent strands across all children
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as a root node
+</span><span style="float: right;">        successes  <span style="color: green;"> 7482</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="fail"> mRNA
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen fail">
+<span style="float: left;">&hellip;agrees exactly with CDS/UTR coordinates of its children
+</span><span style="float: right;">        successes  <span style="color: green;"> 7310</span> 
+        failures  <span style="color: red;"> 11</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has a coding sequence >= 3bp
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has at least one CDS child
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has only allowed child types
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has a protein product >= 10aa
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has non-partial CDS beginning with a start codon
+</span><span style="float: right;">        successes  <span style="color: green;"> 7318</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has non-partial CDS ending on a stop codon
+</span><span style="float: right;">        successes  <span style="color: green;"> 7300</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has non-selenocysteine CDS with no internal stop codons
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;consists of less than 50% Ns
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as part of a gene
+</span><span style="float: right;">        successes  <span style="color: green;"> 7321</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+<li class="ok"> polypeptide
+<ul class="collapsibleListOpen">
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;must be derived_from a unique mRNA
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;agrees exactly with CDS of >=1 overlapping coding transcripts
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;only contains allowed attributes
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has a required product attribute
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;overlaps the transcript it derives_from
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;has only allowed child types
+</span><span style="float: right;">        successes  <span style="color: green;"> 4025</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+<li class="collapsibleListOpen ok">
+<span style="float: left;">&hellip;appears as a root node
+</span><span style="float: right;">        successes  <span style="color: green;"> 7329</span> 
+        failures  <span style="color: red;"> 0</span> 
+        runtime errors  <span style="color: magenta;"> 0</span> 
+</span></li>
+</ul>
+</li>
+</ul></div></li>
+<li>
+          <input type="radio" name="tabs" id="tab2">
+          <label for="tab2">Regions</label>
+          <div id="tab-content2" class="tab-content animated fadeIn"><ul class="collapsibleList">
+<ul class="collapsibleListOpen">
+</ul>
+</ul>
+</div></li>
+<li>
+          <input type="radio" name="tabs" id="tab3">
+          <label for="tab3">Metadata</label>
+          <div id="tab-content3" class="tab-content animated fadeIn"><ul class="collapsibleList">
+<ul class="collapsibleListOpen">
+</ul>
+</ul>
+</div></li>
+<li>
+          <input type="radio" name="tabs" id="tab4">
+          <label for="tab4">Comments</label>
+          <div id="tab-content4" class="tab-content animated fadeIn"><ul class="collapsibleList">
+<ul class="collapsibleListOpen">
+</ul>
+</ul>
+</div></li>
+<li>
+          <input type="radio" name="tabs" id="tab5">
+          <label for="tab5">Sequences</label>
+          <div id="tab-content5" class="tab-content animated fadeIn"><ul class="collapsibleList">
+<ul class="collapsibleListOpen">
+</ul>
+</ul>
+</div></li>
+<li>
+          <input type="radio" name="tabs" id="tab6">
+          <label for="tab6">Warnings</label>
+          <div id="tab-content6" class="tab-content animated fadeIn"><ul>
+</ul>
+</div></li>
+</ul>
+<div style="clear: both;"></div>
+</div>
+<div class=\"footer\"   style="text-align:center; font-size: 12px;">
+  Generated by Speck on Fri Aug 24 12:15:39 2018. Check completed in 13.431909 s.</div>
+</body>
+</html>
