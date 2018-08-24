@@ -1,0 +1,88 @@
+LDON_010005000	coding	Protein of unknown function (DUF2946), putative	LDON_01	3662	4663	-
+LDON_010005100	coding	Endonuclease/Exonuclease/phosphatase family, putative	LDON_01	5750	7411	-
+LDON_010005200	coding	Kinesin-13 1, putative	LDON_01	9003	11024	-
+LDON_010005300:pseudogene	pseudogene	hypothetical protein, conserved	LDON_01	11997	12566	-
+LDON_010005400	coding	carboxylase, putative	LDON_01	15035	17032	-
+LDON_010005500	coding	hypothetical protein, conserved	LDON_01	18188	18937	-
+LDON_010005600	coding	BSD domain containing protein, putative	LDON_01	20032	21774	-
+LDON_010005700	coding	hypothetical protein, conserved	LDON_01	22614	23327	-
+LDON_010005800	coding	Glycosyl transferase family 11, putative	LDON_01	26741	27697	-
+LDON_010005900	coding	monothiol glutaredoxin, putative	LDON_01	28797	29384	-
+LDON_010006000	coding	hypothetical protein, conserved	LDON_01	30592	32565	-
+LDON_010006100	coding	hypothetical protein, conserved	LDON_01	33853	34947	-
+LDON_010006200	coding	N-terminal of Par3 and HAL proteins, putative	LDON_01	37224	37472	-
+LDON_010006300	coding	hypothetical protein, conserved	LDON_01	38409	38759	-
+LDON_010006400	coding	LSM domain containing protein, putative	LDON_01	39627	39869	-
+LDON_010006500	coding	hypothetical protein, conserved	LDON_01	42058	43431	-
+LDON_010006600	coding	CLC-type chloride channel, putative	LDON_01	44862	47174	-
+LDON_010006700	coding	hypothetical protein, conserved	LDON_01	48630	49253	-
+LDON_010006800	coding	Low molecular weight phosphotyrosine protein phosphatase, putative	LDON_01	49945	50856	-
+LDON_010006900	coding	CUE domain/Domain of unknown function (DUF1771)/Smr domain containing protein, putative	LDON_01	51729	54425	-
+LDON_010007000	coding	cyclophilin 12, putative	LDON_01	58133	59137	-
+LDON_010007100	coding	hypothetical protein, conserved	LDON_01	62794	63210	-
+LDON_010007200	coding	DNA excision/repair protein SNF2, putative	LDON_01	63966	66734	-
+LDON_010007300	coding	Right handed beta helix region/Periplasmic copper-binding protein (NosD), putative	LDON_01	67650	70037	-
+LDON_010007400	coding	Calmodulin-binding, putative	LDON_01	71484	72329	-
+LDON_010007500	coding	thioredoxin, putative	LDON_01	73641	73964	-
+LDON_010007600	coding	pseudouridylate synthase-like protein	LDON_01	75458	76699	-
+LDON_010007700	coding	Cytochrome c oxidase biogenesis protein Cmc1 like, putative	LDON_01	77921	78439	-
+LDON_010007800	coding	4F5 protein family, putative	LDON_01	79349	79528	-
+LDON_010007900:pseudogene	pseudogene	acidocalcisomal exopolyphosphatase, putative	LDON_01	80074	81241	-
+LDON_010008000	coding	hypothetical protein, conserved	LDON_01	81601	82032	-
+LDON_010008100	coding	poly(A) export protein, putative	LDON_01	83004	83927	+
+LDON_010008200	coding	hypothetical protein, conserved	LDON_01	84362	84994	+
+LDON_010008300	coding	Uncharacterised protein family (UPF0041), putative	LDON_01	85574	85867	+
+LDON_010008400	coding	hypothetical protein, conserved	LDON_01	86989	87750	+
+LDON_010008500	coding	hypothetical protein, conserved	LDON_01	89402	91645	+
+LDON_010008600	coding	hypothetical protein, conserved	LDON_01	92474	93043	+
+LDON_010008700	coding	Protein of unknown function (DUF788), putative	LDON_01	93674	94240	+
+LDON_010008800	coding	Dyggve-Melchior-Clausen syndrome protein, putative	LDON_01	95085	97535	+
+LDON_010008900	coding	hypothetical protein, conserved	LDON_01	98445	100907	+
+LDON_010009000	coding	hypothetical protein, conserved	LDON_01	101771	103477	+
+LDON_010009100	coding	Ribosomal protein S7e, putative	LDON_01	104112	105035	+
+LDON_010009200	coding	ribosomal protein S7, putative	LDON_01	105929	106531	+
+LDON_010009300	coding	Ribosomal protein S7e, putative	LDON_01	106619	107077	+
+LDON_010009400	coding	Zinc finger, C3HC4 type (RING finger)/Ring finger domain/Zn-finger in ubiquitin-hydrolases and other protein, putative	LDON_01	107951	110194	+
+LDON_010009500	coding	Sugar-tranasporters, 12 TM, putative	LDON_01	111525	113294	+
+LDON_010009600	coding	nicotinamidase, putative	LDON_01	116363	117019	+
+LDON_010009700	coding	conserved protein	LDON_01	119090	123727	+
+LDON_010009800	coding	long-chain-fatty-acid-CoA ligase, putative	LDON_01	128019	130109	+
+LDON_010009900	coding	beta eliminating lyase,putative	LDON_01	130930	132009	+
+LDON_010010000	coding	long-chain-fatty-acid-CoA ligase, putative	LDON_01	134257	136353	+
+LDON_010010100	coding	long-chain-fatty-acid-CoA ligase, putative	LDON_01	137481	139604	+
+LDON_010010200:pseudogene	pseudogene	fatty acyl CoA synthetase 2, putative	LDON_01	142903	143516	+
+LDON_010010300	coding	long-chain-fatty-acid-CoA ligase, putative	LDON_01	144066	146213	+
+LDON_010010400	coding	long-chain-fatty-acid-CoA ligase, putative	LDON_01	149843	154699	+
+LDON_010010500	coding	hypothetical protein, conserved	LDON_01	155702	157744	+
+LDON_010010600	coding	hypothetical protein, conserved	LDON_01	159239	160345	+
+LDON_010010700	coding	pre-mRNA processing factor 3 (PRP3)/Protein of unknown function (DUF1115), putative	LDON_01	161422	163296	+
+LDON_010010800	coding	tricarboxylate carrier, putative	LDON_01	163914	164894	+
+LDON_010010900	coding	hypothetical protein, conserved	LDON_01	165980	167368	+
+LDON_010011000	coding	hypothetical protein, conserved	LDON_01	167691	169301	+
+LDON_010011100	coding	KREL1	LDON_01	170301	171575	+
+LDON_010011200	coding	Rab-GTPase-TBC domain containing protein, putative	LDON_01	172651	178107	+
+LDON_010011300	coding	DNA-damage inducible protein DDI1-like protein	LDON_01	179084	179815	+
+LDON_010011400	coding	hypothetical protein, conserved	LDON_01	180454	182241	+
+LDON_010011500	coding	hypothetical protein, conserved	LDON_01	184592	186712	+
+LDON_010011600	coding	HSP70-like protein	LDON_01	188303	191632	+
+LDON_010011700	coding	metallo-peptidase, Clan ME, Family M16	LDON_01	192591	194075	+
+LDON_010011800	coding	hypothetical protein, conserved	LDON_01	195433	199929	+
+LDON_010011900	coding	hypothetical protein, conserved	LDON_01	200922	201824	+
+LDON_010012000:pseudogene	pseudogene	hypothetical protein, conserved	LDON_01	205943	208366	+
+LDON_010012100	coding	PLAC8 family, putative	LDON_01	210395	211093	+
+LDON_010012200	coding	PLAC8 family, putative	LDON_01	214037	215098	+
+LDON_010012300	coding	ubiquitin activating enzyme, putative	LDON_01	217265	218884	+
+LDON_010012400	coding	hypothetical protein, conserved	LDON_01	219516	224348	+
+LDON_010012500	coding	Meckel syndrome type 6 protein, putative	LDON_01	226144	232932	+
+LDON_010012600	coding	hypothetical protein, conserved	LDON_01	233711	235978	+
+LDON_010012700	coding	protein kinase, putative	LDON_01	237051	241286	+
+LDON_010012800	coding	hypothetical protein, conserved	LDON_01	241415	242893	+
+LDON_010012900	coding	eukaryotic initiation factor 4a, putative	LDON_01	244214	245425	+
+LDON_010013000	coding	hypothetical protein	LDON_01	247872	249524	+
+LDON_010013100	coding	hypothetical protein, conserved	LDON_01	251380	252972	+
+LDON_010013200:pseudogene	pseudogene	hypothetical protein, conserved	LDON_01	255445	256965	+
+LDON_010013300	coding	calcium/potassium channel (CAKC), putative	LDON_01	258418	261471	+
+LDON_010013400	coding	potassium channel subunit-like protein	LDON_01	263038	266538	+
+LDON_010013500	coding	metallo-peptidase, Clan MA(E), Family M3	LDON_01	269306	270178	+
+LDON_010013600	coding	Peptidase family M3, putative	LDON_01	270196	270483	+
+LDON_010013700	coding	hypothetical protein	LDON_01	271250	271639	+

@@ -1,0 +1,13 @@
+nof_regions: 1
+overall_length: 274030
+gc_overall: 63.16
+nof_genes: 83
+nof_pseudogenes: 5
+gene_density: 302.89
+avg_coding_length: 1641
+nof_coding_genes: 83
+nof_genes_with_mult_cds: 4
+nof_genes_with_function: 54
+nof_pseudogenes_with_function: 2
+nof_trnas: 0
+gc_coding: 65.50

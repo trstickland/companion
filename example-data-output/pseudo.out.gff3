@@ -1,0 +1,682 @@
+##gff-version 3
+##sequence-region   LDON_01 1 283432
+LDON_01	.	contig	1	14026	.	+	.	Name=LDON_CTG000001
+LDON_01	RATT	gene	3662	4663	.	-	.	ID=LDON_010005000;ratt_ortholog=LmjF.01.0010
+LDON_01	RATT	mRNA	3662	4663	.	-	.	ID=LDON_010005000.1;Parent=LDON_010005000
+LDON_01	RATT	CDS	3662	4663	.	-	0	ID=LDON_010005000.1:CDS:1;Parent=LDON_010005000.1
+###
+LDON_01	.	polypeptide	3662	4663	.	-	.	ID=LDON_010005000.1:pep;Derives_from=LDON_010005000.1;orthologous_to=LmjF.01.0010;ortholog_cluster=ORTHOMCL78;product=term%3DProtein of unknown function (DUF2946)%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF11162
+LDON_01	Pfam	protein_match	4415	4660	.	-	.	Parent=LDON_010005000.1:pep;Name=PF11162;signature_desc=Protein of unknown function (DUF2946)
+###
+LDON_01	RATT	gene	5750	7411	.	-	.	ID=LDON_010005100;ratt_ortholog=LmjF.01.0020
+LDON_01	RATT	mRNA	5750	7411	.	-	.	ID=LDON_010005100.1;Parent=LDON_010005100
+LDON_01	RATT	CDS	5750	7411	.	-	0	ID=LDON_010005100.1:CDS:1;Parent=LDON_010005100.1
+###
+LDON_01	.	polypeptide	5750	7411	.	-	.	ID=LDON_010005100.1:pep;Derives_from=LDON_010005100.1;orthologous_to=LmjF.01.0020;ortholog_cluster=ORTHOMCL77;product=term%3DEndonuclease/Exonuclease/phosphatase family%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF03372
+LDON_01	Pfam	protein_match	5879	6967	.	-	.	Parent=LDON_010005100.1:pep;Name=PF03372;signature_desc=Endonuclease/Exonuclease/phosphatase family
+###
+LDON_01	RATT	gene	9003	11024	.	-	.	ID=LDON_010005200;ratt_ortholog=LmjF.01.0030;Name=KIN13-1;synonym=Kif-13-1
+LDON_01	RATT	mRNA	9003	11024	.	-	.	ID=LDON_010005200.1;Parent=LDON_010005200
+LDON_01	RATT	CDS	9003	11024	.	-	0	ID=LDON_010005200.1:CDS:1;Parent=LDON_010005200.1
+###
+LDON_01	.	polypeptide	9003	11024	.	-	.	ID=LDON_010005200.1:pep;Derives_from=LDON_010005200.1;orthologous_to=LmjF.01.0030;ortholog_cluster=ORTHOMCL76;product=term%3DKinesin-13 1%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0030;Ontology_term=GO:0007018,GO:0008017,GO:0003777,GO:0005524
+LDON_01	Pfam	protein_match	9678	10613	.	-	.	Parent=LDON_010005200.1:pep;Name=PF00225;signature_desc=Kinesin motor domain;Ontology_term=GO:0003777,GO:0005524,GO:0008017,GO:0007018
+LDON_01	Pfam	protein_match	10203	10550	.	-	.	Parent=LDON_010005200.1:pep;Name=PF16796;signature_desc=Microtubule binding
+###
+LDON_01	.	pseudogene	11997	12566	997	-	.	ID=LDON_010005300:pseudogene;has_internal_stop=true;has_frameshift=false;has_start=true;has_stop=true;Target=LmjF.01.0040:mRNA 1 190;original_prot_length=190
+LDON_01	.	pseudogenic_transcript	11997	12566	.	-	.	ID=LDON_010005300.1;Parent=LDON_010005300:pseudogene
+LDON_01	.	pseudogenic_exon	11997	12566	.	-	.	ID=LDON_010005300.1:pseudogenic_exon:1;Parent=LDON_010005300.1
+###
+LDON_01	.	polypeptide	11997	12566	.	-	.	ID=LDON_010005300.1:pep;Derives_from=LDON_010005300.1;orthologous_to=LmjF.01.0040;ortholog_cluster=ORTHOMCL75;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	14027	14125	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	14126	24465	.	+	.	Name=LDON_CTG000002
+LDON_01	RATT	gene	15035	17032	.	-	.	ID=LDON_010005400;ratt_ortholog=LmjF.01.0050
+LDON_01	RATT	mRNA	15035	17032	.	-	.	ID=LDON_010005400.1;Parent=LDON_010005400
+LDON_01	RATT	CDS	15035	17032	.	-	0	ID=LDON_010005400.1:CDS:1;Parent=LDON_010005400.1
+###
+LDON_01	.	polypeptide	15035	17032	.	-	.	ID=LDON_010005400.1:pep;Derives_from=LDON_010005400.1;orthologous_to=LmjF.01.0050;ortholog_cluster=ORTHOMCL74;product=term%3Dcarboxylase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0050;Dbxref=EC:6.4.-.-;Ontology_term=GO:0003824,GO:0008152,GO:0005524,GO:0008716,GO:0016874
+LDON_01	Pfam	protein_match	15044	15244	.	-	.	Parent=LDON_010005400.1:pep;Name=PF00364;signature_desc=Biotin-requiring enzyme
+LDON_01	Pfam	protein_match	15698	16015	.	-	.	Parent=LDON_010005400.1:pep;Name=PF02785;signature_desc=Biotin carboxylase C-terminal domain;Ontology_term=GO:0016874
+LDON_01	Pfam	protein_match	16058	16678	.	-	.	Parent=LDON_010005400.1:pep;Name=PF02786;signature_desc=Carbamoyl-phosphate synthase L chain%2C ATP binding domain;Ontology_term=GO:0005524
+LDON_01	Pfam	protein_match	16148	16612	.	-	.	Parent=LDON_010005400.1:pep;Name=PF02222;signature_desc=ATP-grasp domain
+LDON_01	Pfam	protein_match	16151	16597	.	-	.	Parent=LDON_010005400.1:pep;Name=PF07478;signature_desc=D-ala D-ala ligase C-terminus;Ontology_term=GO:0008716
+LDON_01	Pfam	protein_match	16694	17017	.	-	.	Parent=LDON_010005400.1:pep;Name=PF00289;signature_desc=Biotin carboxylase%2C N-terminal domain;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	18188	18937	.	-	.	ID=LDON_010005500;ratt_ortholog=LmjF.01.0060
+LDON_01	RATT	mRNA	18188	18937	.	-	.	ID=LDON_010005500.1;Parent=LDON_010005500
+LDON_01	RATT	CDS	18188	18937	.	-	0	ID=LDON_010005500.1:CDS:1;Parent=LDON_010005500.1
+###
+LDON_01	.	polypeptide	18188	18937	.	-	.	ID=LDON_010005500.1:pep;Derives_from=LDON_010005500.1;orthologous_to=LmjF.01.0060;ortholog_cluster=ORTHOMCL73;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	20032	21774	.	-	.	ID=LDON_010005600;ratt_ortholog=LmjF.01.0070
+LDON_01	RATT	mRNA	20032	21774	.	-	.	ID=LDON_010005600.1;Parent=LDON_010005600
+LDON_01	RATT	CDS	20032	21774	.	-	0	ID=LDON_010005600.1:CDS:1;Parent=LDON_010005600.1
+###
+LDON_01	.	polypeptide	20032	21774	.	-	.	ID=LDON_010005600.1:pep;Derives_from=LDON_010005600.1;orthologous_to=LmjF.01.0070;ortholog_cluster=ORTHOMCL72;product=term%3DBSD domain containing protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF03909
+LDON_01	Pfam	protein_match	20653	20775	.	-	.	Parent=LDON_010005600.1:pep;Name=PF03909;signature_desc=BSD domain
+###
+LDON_01	RATT	gene	22614	23327	.	-	.	ID=LDON_010005700;ratt_ortholog=LmjF.01.0080
+LDON_01	RATT	mRNA	22614	23327	.	-	.	ID=LDON_010005700.1;Parent=LDON_010005700
+LDON_01	RATT	CDS	22614	23327	.	-	0	ID=LDON_010005700.1:CDS:1;Parent=LDON_010005700.1
+###
+LDON_01	.	polypeptide	22614	23327	.	-	.	ID=LDON_010005700.1:pep;Derives_from=LDON_010005700.1;orthologous_to=LmjF.01.0080;ortholog_cluster=ORTHOMCL71;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	24466	24564	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	24565	24988	.	+	.	Name=LDON_CTG000003
+LDON_01	.	gap	24989	24990	.	.	.	estimated_length=2;gap_type=within scaffold
+LDON_01	.	contig	24991	25136	.	+	.	Name=LDON_CTG000004
+LDON_01	.	gap	25137	26263	.	.	.	estimated_length=1127;gap_type=within scaffold
+LDON_01	.	contig	26264	35921	.	+	.	Name=LDON_CTG000005
+LDON_01	RATT	gene	26741	27697	.	-	.	ID=LDON_010005800;ratt_ortholog=LmjF.01.0100
+LDON_01	RATT	mRNA	26741	27697	.	-	.	ID=LDON_010005800.1;Parent=LDON_010005800
+LDON_01	RATT	CDS	26741	27697	.	-	0	ID=LDON_010005800.1:CDS:1;Parent=LDON_010005800.1
+###
+LDON_01	.	polypeptide	26741	27697	.	-	.	ID=LDON_010005800.1:pep;Derives_from=LDON_010005800.1;orthologous_to=LmjF.01.0100;ortholog_cluster=ORTHOMCL70;product=term%3DGlycosyl transferase family 11%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01531;Ontology_term=GO:0005975,GO:0016020,GO:0008107
+LDON_01	Pfam	protein_match	26753	26917	.	-	.	Parent=LDON_010005800.1:pep;Name=PF01531;signature_desc=Glycosyl transferase family 11;Ontology_term=GO:0008107,GO:0005975,GO:0016020
+###
+LDON_01	RATT	gene	28797	29384	.	-	.	ID=LDON_010005900;ratt_ortholog=LmjF.01.0110
+LDON_01	RATT	mRNA	28797	29384	.	-	.	ID=LDON_010005900.1;Parent=LDON_010005900
+LDON_01	RATT	CDS	28797	29384	.	-	0	ID=LDON_010005900.1:CDS:1;Parent=LDON_010005900.1
+###
+LDON_01	.	polypeptide	28797	29384	.	-	.	ID=LDON_010005900.1:pep;Derives_from=LDON_010005900.1;orthologous_to=LmjF.01.0110;ortholog_cluster=ORTHOMCL69;product=term%3Dmonothiol glutaredoxin%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0110;Dbxref=UniProt:E9AC00;Ontology_term=GO:0009055,GO:0045454,GO:0015035
+LDON_01	Pfam	protein_match	28899	29087	.	-	.	Parent=LDON_010005900.1:pep;Name=PF00462;signature_desc=Glutaredoxin;Ontology_term=GO:0009055,GO:0015035,GO:0045454
+###
+LDON_01	RATT	gene	30592	32565	.	-	.	ID=LDON_010006000;ratt_ortholog=LmjF.01.0120
+LDON_01	RATT	mRNA	30592	32565	.	-	.	ID=LDON_010006000.1;Parent=LDON_010006000
+LDON_01	RATT	CDS	30592	32565	.	-	0	ID=LDON_010006000.1:CDS:1;Parent=LDON_010006000.1
+###
+LDON_01	.	polypeptide	30592	32565	.	-	.	ID=LDON_010006000.1:pep;Derives_from=LDON_010006000.1;orthologous_to=LmjF.01.0120;ortholog_cluster=ORTHOMCL68;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	33853	34947	.	-	.	ID=LDON_010006100;ratt_ortholog=LmjF.01.0130
+LDON_01	RATT	mRNA	33853	34947	.	-	.	ID=LDON_010006100.1;Parent=LDON_010006100
+LDON_01	RATT	CDS	33853	34947	.	-	0	ID=LDON_010006100.1:CDS:1;Parent=LDON_010006100.1
+###
+LDON_01	.	polypeptide	33853	34947	.	-	.	ID=LDON_010006100.1:pep;Derives_from=LDON_010006100.1;orthologous_to=LmjF.01.0130;ortholog_cluster=ORTHOMCL67;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	35922	36323	.	.	.	estimated_length=402;gap_type=within scaffold
+LDON_01	.	contig	36324	37633	.	+	.	Name=LDON_CTG000006
+LDON_01	RATT	gene	37224	37472	.	-	.	ID=LDON_010006200;ratt_ortholog=LmjF.01.0140
+LDON_01	RATT	mRNA	37224	37472	.	-	.	ID=LDON_010006200.1;Parent=LDON_010006200
+LDON_01	RATT	CDS	37224	37472	.	-	0	ID=LDON_010006200.1:CDS:1;Parent=LDON_010006200.1
+###
+LDON_01	.	polypeptide	37224	37472	.	-	.	ID=LDON_010006200.1:pep;Derives_from=LDON_010006200.1;orthologous_to=LmjF.01.0140;ortholog_cluster=ORTHOMCL66;product=term%3DN-terminal of Par3 and HAL proteins%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF12053
+LDON_01	Pfam	protein_match	37245	37472	.	-	.	Parent=LDON_010006200.1:pep;Name=PF12053;signature_desc=N-terminal of Par3 and HAL proteins
+###
+LDON_01	.	gap	37634	37732	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	37733	40148	.	+	.	Name=LDON_CTG000007
+LDON_01	RATT	gene	38409	38759	.	-	.	ID=LDON_010006300;ratt_ortholog=LmjF.01.0150
+LDON_01	RATT	mRNA	38409	38759	.	-	.	ID=LDON_010006300.1;Parent=LDON_010006300
+LDON_01	RATT	CDS	38409	38759	.	-	0	ID=LDON_010006300.1:CDS:1;Parent=LDON_010006300.1
+###
+LDON_01	.	polypeptide	38409	38759	.	-	.	ID=LDON_010006300.1:pep;Derives_from=LDON_010006300.1;orthologous_to=LmjF.01.0150;ortholog_cluster=ORTHOMCL65;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	39627	39869	.	-	.	ID=LDON_010006400;ratt_ortholog=LmjF.01.0160
+LDON_01	RATT	mRNA	39627	39869	.	-	.	ID=LDON_010006400.1;Parent=LDON_010006400
+LDON_01	RATT	CDS	39627	39869	.	-	0	ID=LDON_010006400.1:CDS:1;Parent=LDON_010006400.1
+###
+LDON_01	.	polypeptide	39627	39869	.	-	.	ID=LDON_010006400.1:pep;Derives_from=LDON_010006400.1;orthologous_to=LmjF.01.0160;ortholog_cluster=ORTHOMCL64;product=term%3DLSM domain containing protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01423
+LDON_01	Pfam	protein_match	39672	39857	.	-	.	Parent=LDON_010006400.1:pep;Name=PF01423;signature_desc=LSM domain
+###
+LDON_01	.	gap	40149	40247	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	40248	55642	.	+	.	Name=LDON_CTG000008
+LDON_01	RATT	gene	42058	43431	.	-	.	ID=LDON_010006500;ratt_ortholog=LmjF.01.0170
+LDON_01	RATT	mRNA	42058	43431	.	-	.	ID=LDON_010006500.1;Parent=LDON_010006500
+LDON_01	RATT	CDS	42058	43431	.	-	0	ID=LDON_010006500.1:CDS:1;Parent=LDON_010006500.1
+###
+LDON_01	.	polypeptide	42058	43431	.	-	.	ID=LDON_010006500.1:pep;Derives_from=LDON_010006500.1;orthologous_to=LmjF.01.0170;ortholog_cluster=ORTHOMCL63;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	44862	47174	.	-	.	ID=LDON_010006600;ratt_ortholog=LmjF.01.0180
+LDON_01	RATT	mRNA	44862	47174	.	-	.	ID=LDON_010006600.1;Parent=LDON_010006600
+LDON_01	RATT	CDS	44862	47174	.	-	0	ID=LDON_010006600.1:CDS:1;Parent=LDON_010006600.1
+###
+LDON_01	.	polypeptide	44862	47174	.	-	.	ID=LDON_010006600.1:pep;Derives_from=LDON_010006600.1;orthologous_to=LmjF.01.0180;ortholog_cluster=ORTHOMCL62;product=term%3DCLC-type chloride channel%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0180;Ontology_term=GO:0006821,GO:0055085,GO:0005247,GO:0016020
+LDON_01	Pfam	protein_match	45540	46670	.	-	.	Parent=LDON_010006600.1:pep;Name=PF00654;signature_desc=Voltage gated chloride channel;Ontology_term=GO:0005247,GO:0006821,GO:0055085,GO:0016020
+###
+LDON_01	RATT	gene	48630	49253	.	-	.	ID=LDON_010006700;ratt_ortholog=LmjF.01.0190
+LDON_01	RATT	mRNA	48630	49253	.	-	.	ID=LDON_010006700.1;Parent=LDON_010006700
+LDON_01	RATT	CDS	48630	49253	.	-	0	ID=LDON_010006700.1:CDS:1;Parent=LDON_010006700.1
+###
+LDON_01	.	polypeptide	48630	49253	.	-	.	ID=LDON_010006700.1:pep;Derives_from=LDON_010006700.1;orthologous_to=LmjF.01.0190;ortholog_cluster=ORTHOMCL61;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	49945	50856	.	-	.	ID=LDON_010006800;ratt_ortholog=LmjF.01.0200
+LDON_01	RATT	mRNA	49945	50856	.	-	.	ID=LDON_010006800.1;Parent=LDON_010006800
+LDON_01	RATT	CDS	49945	50856	.	-	0	ID=LDON_010006800.1:CDS:1;Parent=LDON_010006800.1
+###
+LDON_01	.	polypeptide	49945	50856	.	-	.	ID=LDON_010006800.1:pep;Derives_from=LDON_010006800.1;orthologous_to=LmjF.01.0200;ortholog_cluster=ORTHOMCL60;product=term%3DLow molecular weight phosphotyrosine protein phosphatase%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01451
+LDON_01	Pfam	protein_match	50479	50727	.	-	.	Parent=LDON_010006800.1:pep;Name=PF01451;signature_desc=Low molecular weight phosphotyrosine protein phosphatase
+###
+LDON_01	RATT	gene	51729	54425	.	-	.	ID=LDON_010006900;ratt_ortholog=LmjF.01.0210
+LDON_01	RATT	mRNA	51729	54425	.	-	.	ID=LDON_010006900.1;Parent=LDON_010006900
+LDON_01	RATT	CDS	51729	54425	.	-	0	ID=LDON_010006900.1:CDS:1;Parent=LDON_010006900.1
+###
+LDON_01	.	polypeptide	51729	54425	.	-	.	ID=LDON_010006900.1:pep;Derives_from=LDON_010006900.1;orthologous_to=LmjF.01.0210;ortholog_cluster=ORTHOMCL59;product=term%3DCUE domain/Domain of unknown function (DUF1771)/Smr domain containing protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF02845|Pfam:PF08590|Pfam:PF01713;Ontology_term=GO:0005515
+LDON_01	Pfam	protein_match	51789	51989	.	-	.	Parent=LDON_010006900.1:pep;Name=PF01713;signature_desc=Smr domain
+LDON_01	Pfam	protein_match	52017	52199	.	-	.	Parent=LDON_010006900.1:pep;Name=PF08590;signature_desc=Domain of unknown function (DUF1771)
+LDON_01	Pfam	protein_match	52617	52733	.	-	.	Parent=LDON_010006900.1:pep;Name=PF02845;signature_desc=CUE domain;Ontology_term=GO:0005515
+###
+LDON_01	.	gap	55643	55741	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	55742	59832	.	+	.	Name=LDON_CTG000009
+LDON_01	RATT	gene	58133	59137	.	-	.	ID=LDON_010007000;ratt_ortholog=LmjF.01.0220;Name=CYP12
+LDON_01	RATT	mRNA	58133	59137	.	-	.	ID=LDON_010007000.1;Parent=LDON_010007000
+LDON_01	RATT	CDS	58133	59137	.	-	0	ID=LDON_010007000.1:CDS:1;Parent=LDON_010007000.1
+###
+LDON_01	.	polypeptide	58133	59137	.	-	.	ID=LDON_010007000.1:pep;Derives_from=LDON_010007000.1;orthologous_to=LmjF.01.0220;ortholog_cluster=ORTHOMCL58;product=term%3Dcyclophilin 12%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0220;Dbxref=EC:5.2.1.8;Ontology_term=GO:0000413,GO:0003755,GO:0006457
+LDON_01	Pfam	protein_match	58154	58663	.	-	.	Parent=LDON_010007000.1:pep;Name=PF00160;signature_desc=Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD;Ontology_term=GO:0003755,GO:0000413,GO:0006457
+###
+LDON_01	.	gap	59833	59931	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	59932	60135	.	+	.	Name=LDON_CTG000010
+LDON_01	.	gap	60136	61114	.	.	.	estimated_length=979;gap_type=within scaffold
+LDON_01	.	contig	61115	61188	.	+	.	Name=LDON_CTG000011
+LDON_01	.	gap	61189	61287	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	61288	66870	.	+	.	Name=LDON_CTG000012
+LDON_01	RATT	gene	62794	63210	.	-	.	ID=LDON_010007100;ratt_ortholog=LmjF.01.0230
+LDON_01	RATT	mRNA	62794	63210	.	-	.	ID=LDON_010007100.1;Parent=LDON_010007100
+LDON_01	RATT	CDS	62794	63210	.	-	0	ID=LDON_010007100.1:CDS:1;Parent=LDON_010007100.1
+###
+LDON_01	.	polypeptide	62794	63210	.	-	.	ID=LDON_010007100.1:pep;Derives_from=LDON_010007100.1;orthologous_to=LmjF.01.0230;ortholog_cluster=ORTHOMCL57;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	63966	66734	.	-	.	ID=LDON_010007200;ratt_ortholog=LmjF.01.0240
+LDON_01	RATT	mRNA	63966	66734	.	-	.	ID=LDON_010007200.1;Parent=LDON_010007200
+LDON_01	RATT	CDS	63966	66734	.	-	0	ID=LDON_010007200.1:CDS:1;Parent=LDON_010007200.1
+###
+LDON_01	.	polypeptide	63966	66734	.	-	.	ID=LDON_010007200.1:pep;Derives_from=LDON_010007200.1;orthologous_to=LmjF.01.0240;ortholog_cluster=ORTHOMCL56;product=term%3DDNA excision/repair protein SNF2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0240;Ontology_term=GO:0005524,GO:0003677
+LDON_01	Pfam	protein_match	64962	65279	.	-	.	Parent=LDON_010007200.1:pep;Name=PF00271;signature_desc=Helicase conserved C-terminal domain
+LDON_01	Pfam	protein_match	65391	66341	.	-	.	Parent=LDON_010007200.1:pep;Name=PF00176;signature_desc=SNF2 family N-terminal domain;Ontology_term=GO:0003677,GO:0005524
+###
+LDON_01	.	gap	66871	66969	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	66970	104404	.	+	.	Name=LDON_CTG000013
+LDON_01	RATT	gene	67650	70037	.	-	.	ID=LDON_010007300;ratt_ortholog=LmjF.01.0250
+LDON_01	RATT	mRNA	67650	70037	.	-	.	ID=LDON_010007300.1;Parent=LDON_010007300
+LDON_01	RATT	CDS	67650	70037	.	-	0	ID=LDON_010007300.1:CDS:1;Parent=LDON_010007300.1
+###
+LDON_01	.	polypeptide	67650	70037	.	-	.	ID=LDON_010007300.1:pep;Derives_from=LDON_010007300.1;orthologous_to=LmjF.01.0250;ortholog_cluster=ORTHOMCL55;product=term%3DRight handed beta helix region/Periplasmic copper-binding protein (NosD)%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF13229|Pfam:PF05048
+LDON_01	Pfam	protein_match	67683	68090	.	-	.	Parent=LDON_010007300.1:pep;Name=PF13229;signature_desc=Right handed beta helix region
+LDON_01	Pfam	protein_match	67722	68021	.	-	.	Parent=LDON_010007300.1:pep;Name=PF05048;signature_desc=Periplasmic copper-binding protein (NosD)
+###
+LDON_01	RATT	gene	71484	72329	.	-	.	ID=LDON_010007400;ratt_ortholog=LmjF.01.0260
+LDON_01	RATT	mRNA	71484	72329	.	-	.	ID=LDON_010007400.1;Parent=LDON_010007400
+LDON_01	RATT	CDS	71484	72329	.	-	0	ID=LDON_010007400.1:CDS:1;Parent=LDON_010007400.1
+###
+LDON_01	.	polypeptide	71484	72329	.	-	.	ID=LDON_010007400.1:pep;Derives_from=LDON_010007400.1;orthologous_to=LmjF.01.0260;ortholog_cluster=ORTHOMCL54;product=term%3DCalmodulin-binding%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF13864
+LDON_01	Pfam	protein_match	71517	71807	.	-	.	Parent=LDON_010007400.1:pep;Name=PF13864;signature_desc=Calmodulin-binding
+###
+LDON_01	RATT	gene	73641	73964	.	-	.	ID=LDON_010007500;ratt_ortholog=LmjF.01.0270
+LDON_01	RATT	mRNA	73641	73964	.	-	.	ID=LDON_010007500.1;Parent=LDON_010007500
+LDON_01	RATT	CDS	73641	73964	.	-	0	ID=LDON_010007500.1:CDS:1;Parent=LDON_010007500.1
+###
+LDON_01	.	polypeptide	73641	73964	.	-	.	ID=LDON_010007500.1:pep;Derives_from=LDON_010007500.1;orthologous_to=LmjF.01.0270;ortholog_cluster=ORTHOMCL53;product=term%3Dthioredoxin%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0270;Ontology_term=GO:0045454
+LDON_01	Pfam	protein_match	73662	73937	.	-	.	Parent=LDON_010007500.1:pep;Name=PF00085;signature_desc=Thioredoxin;Ontology_term=GO:0045454
+###
+LDON_01	RATT	gene	75458	76699	.	-	.	ID=LDON_010007600;ratt_ortholog=LmjF.01.0280
+LDON_01	RATT	mRNA	75458	76699	.	-	.	ID=LDON_010007600.1;Parent=LDON_010007600
+LDON_01	RATT	CDS	75458	76699	.	-	0	ID=LDON_010007600.1:CDS:1;Parent=LDON_010007600.1
+###
+LDON_01	.	polypeptide	75458	76699	.	-	.	ID=LDON_010007600.1:pep;Derives_from=LDON_010007600.1;orthologous_to=LmjF.01.0280;ortholog_cluster=ORTHOMCL52;product=term%3Dpseudouridylate synthase-like protein%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0280;Ontology_term=GO:0003723,GO:0009982,GO:0009451,GO:0001522
+LDON_01	Pfam	protein_match	75716	76183	.	-	.	Parent=LDON_010007600.1:pep;Name=PF00849;signature_desc=RNA pseudouridylate synthase;Ontology_term=GO:0003723,GO:0009982,GO:0001522,GO:0009451
+###
+LDON_01	RATT	gene	77921	78439	.	-	.	ID=LDON_010007700;ratt_ortholog=LmjF.01.0290
+LDON_01	RATT	mRNA	77921	78439	.	-	.	ID=LDON_010007700.1;Parent=LDON_010007700
+LDON_01	RATT	CDS	77921	78439	.	-	0	ID=LDON_010007700.1:CDS:1;Parent=LDON_010007700.1
+###
+LDON_01	.	polypeptide	77921	78439	.	-	.	ID=LDON_010007700.1:pep;Derives_from=LDON_010007700.1;orthologous_to=LmjF.01.0290;ortholog_cluster=ORTHOMCL51;product=term%3DCytochrome c oxidase biogenesis protein Cmc1 like%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF08583
+LDON_01	Pfam	protein_match	78143	78301	.	-	.	Parent=LDON_010007700.1:pep;Name=PF08583;signature_desc=Cytochrome c oxidase biogenesis protein Cmc1 like
+###
+LDON_01	RATT	gene	79349	79528	.	-	.	ID=LDON_010007800;ratt_ortholog=LmjF.01.0300
+LDON_01	RATT	mRNA	79349	79528	.	-	.	ID=LDON_010007800.1;Parent=LDON_010007800
+LDON_01	RATT	CDS	79349	79528	.	-	0	ID=LDON_010007800.1:CDS:1;Parent=LDON_010007800.1
+###
+LDON_01	.	polypeptide	79349	79528	.	-	.	ID=LDON_010007800.1:pep;Derives_from=LDON_010007800.1;orthologous_to=LmjF.01.0300;ortholog_cluster=ORTHOMCL50;product=term%3D4F5 protein family%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF04419
+LDON_01	Pfam	protein_match	79424	79528	.	-	.	Parent=LDON_010007800.1:pep;Name=PF04419;signature_desc=4F5 protein family
+###
+LDON_01	.	pseudogene	80074	81241	2.04e+03	-	.	ID=LDON_010007900:pseudogene;has_internal_stop=true;has_frameshift=true;Target=LmjF.01.0310:mRNA 1 389;original_prot_length=389
+LDON_01	.	pseudogenic_transcript	80074	81241	.	-	.	ID=LDON_010007900.1;Parent=LDON_010007900:pseudogene
+LDON_01	.	pseudogenic_exon	80074	80082	.	-	.	ID=LDON_010007900.1:pseudogenic_exon:1;Parent=LDON_010007900.1
+LDON_01	.	pseudogenic_exon	80084	81241	.	-	.	ID=LDON_010007900.1:pseudogenic_exon:2;Parent=LDON_010007900.1
+###
+LDON_01	.	polypeptide	80074	81241	.	-	.	ID=LDON_010007900.1:pep;Derives_from=LDON_010007900.1;orthologous_to=LmjF.01.0310;ortholog_cluster=ORTHOMCL49;product=term%3Dacidocalcisomal exopolyphosphatase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0310;Dbxref=CTP:map00230,EC:3.6.1.11;Ontology_term=GO:0016462,GO:0005737
+LDON_01	Pfam	protein_match	80111	80569	.	-	.	Parent=LDON_010007900.1:pep;Name=PF02833;signature_desc=DHHA2 domain;Ontology_term=GO:0016462,GO:0005737
+LDON_01	Pfam	protein_match	80729	81169	.	-	.	Parent=LDON_010007900.1:pep;Name=PF01368;signature_desc=DHH family
+###
+LDON_01	RATT	gene	81601	82032	.	-	.	ID=LDON_010008000;ratt_ortholog=LmjF.01.0315
+LDON_01	RATT	mRNA	81601	82032	.	-	.	ID=LDON_010008000.1;Parent=LDON_010008000
+LDON_01	RATT	CDS	81601	82032	.	-	0	ID=LDON_010008000.1:CDS:1;Parent=LDON_010008000.1
+###
+LDON_01	.	polypeptide	81601	82032	.	-	.	ID=LDON_010008000.1:pep;Derives_from=LDON_010008000.1;orthologous_to=LmjF.01.0315;ortholog_cluster=ORTHOMCL48;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	83004	83927	.	+	.	ID=LDON_010008100;ratt_ortholog=LmjF.01.0320
+LDON_01	RATT	mRNA	83004	83927	.	+	.	ID=LDON_010008100.1;Parent=LDON_010008100
+LDON_01	RATT	CDS	83004	83927	.	+	0	ID=LDON_010008100.1:CDS:1;Parent=LDON_010008100.1
+###
+LDON_01	.	polypeptide	83004	83927	.	+	.	ID=LDON_010008100.1:pep;Derives_from=LDON_010008100.1;orthologous_to=LmjF.01.0320;ortholog_cluster=ORTHOMCL47;product=term%3Dpoly(A) export protein%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0320;Ontology_term=GO:0005515
+LDON_01	Pfam	protein_match	83226	83327	.	+	.	Parent=LDON_010008100.1:pep;Name=PF00400;signature_desc=WD domain%2C G-beta repeat;Ontology_term=GO:0005515
+###
+LDON_01	RATT	gene	84362	84994	.	+	.	ID=LDON_010008200;ratt_ortholog=LmjF.01.0330
+LDON_01	RATT	mRNA	84362	84994	.	+	.	ID=LDON_010008200.1;Parent=LDON_010008200
+LDON_01	RATT	CDS	84362	84994	.	+	0	ID=LDON_010008200.1:CDS:1;Parent=LDON_010008200.1
+###
+LDON_01	.	polypeptide	84362	84994	.	+	.	ID=LDON_010008200.1:pep;Derives_from=LDON_010008200.1;orthologous_to=LmjF.01.0330;ortholog_cluster=ORTHOMCL46;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	85574	85867	.	+	.	ID=LDON_010008300;ratt_ortholog=LmjF.01.0335
+LDON_01	RATT	mRNA	85574	85867	.	+	.	ID=LDON_010008300.1;Parent=LDON_010008300
+LDON_01	RATT	CDS	85574	85867	.	+	0	ID=LDON_010008300.1:CDS:1;Parent=LDON_010008300.1
+###
+LDON_01	.	polypeptide	85574	85867	.	+	.	ID=LDON_010008300.1:pep;Derives_from=LDON_010008300.1;orthologous_to=LmjF.01.0335;ortholog_cluster=ORTHOMCL45;product=term%3DUncharacterised protein family (UPF0041)%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF03650;Ontology_term=GO:0006850,GO:0005743
+LDON_01	Pfam	protein_match	85613	85834	.	+	.	Parent=LDON_010008300.1:pep;Name=PF03650;signature_desc=Uncharacterised protein family (UPF0041);Ontology_term=GO:0006850,GO:0005743
+###
+LDON_01	RATT	gene	86989	87750	.	+	.	ID=LDON_010008400;ratt_ortholog=LmjF.01.0340
+LDON_01	RATT	mRNA	86989	87750	.	+	.	ID=LDON_010008400.1;Parent=LDON_010008400
+LDON_01	RATT	CDS	86989	87750	.	+	0	ID=LDON_010008400.1:CDS:1;Parent=LDON_010008400.1
+###
+LDON_01	.	polypeptide	86989	87750	.	+	.	ID=LDON_010008400.1:pep;Derives_from=LDON_010008400.1;orthologous_to=LmjF.01.0340;ortholog_cluster=ORTHOMCL44;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	89402	91645	.	+	.	ID=LDON_010008500;ratt_ortholog=LmjF.01.0350
+LDON_01	RATT	mRNA	89402	91645	.	+	.	ID=LDON_010008500.1;Parent=LDON_010008500
+LDON_01	RATT	CDS	89402	91645	.	+	0	ID=LDON_010008500.1:CDS:1;Parent=LDON_010008500.1
+###
+LDON_01	.	polypeptide	89402	91645	.	+	.	ID=LDON_010008500.1:pep;Derives_from=LDON_010008500.1;orthologous_to=LmjF.01.0350;ortholog_cluster=ORTHOMCL43;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	92474	93043	.	+	.	ID=LDON_010008600;ratt_ortholog=LmjF.01.0360
+LDON_01	RATT	mRNA	92474	93043	.	+	.	ID=LDON_010008600.1;Parent=LDON_010008600
+LDON_01	RATT	CDS	92474	93043	.	+	0	ID=LDON_010008600.1:CDS:1;Parent=LDON_010008600.1
+###
+LDON_01	.	polypeptide	92474	93043	.	+	.	ID=LDON_010008600.1:pep;Derives_from=LDON_010008600.1;orthologous_to=LmjF.01.0360;ortholog_cluster=ORTHOMCL42;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	93674	94240	.	+	.	ID=LDON_010008700;ratt_ortholog=LmjF.01.0370
+LDON_01	RATT	mRNA	93674	94240	.	+	.	ID=LDON_010008700.1;Parent=LDON_010008700
+LDON_01	RATT	CDS	93674	94240	.	+	0	ID=LDON_010008700.1:CDS:1;Parent=LDON_010008700.1
+###
+LDON_01	.	polypeptide	93674	94240	.	+	.	ID=LDON_010008700.1:pep;Derives_from=LDON_010008700.1;orthologous_to=LmjF.01.0370;ortholog_cluster=ORTHOMCL41;product=term%3DProtein of unknown function (DUF788)%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF05620
+LDON_01	Pfam	protein_match	93674	94204	.	+	.	Parent=LDON_010008700.1:pep;Name=PF05620;signature_desc=Protein of unknown function (DUF788)
+###
+LDON_01	RATT	gene	95085	97535	.	+	.	ID=LDON_010008800;ratt_ortholog=LmjF.01.0380
+LDON_01	RATT	mRNA	95085	97535	.	+	.	ID=LDON_010008800.1;Parent=LDON_010008800
+LDON_01	RATT	CDS	95085	97535	.	+	0	ID=LDON_010008800.1:CDS:1;Parent=LDON_010008800.1
+###
+LDON_01	.	polypeptide	95085	97535	.	+	.	ID=LDON_010008800.1:pep;Derives_from=LDON_010008800.1;orthologous_to=LmjF.01.0380;ortholog_cluster=ORTHOMCL40;product=term%3DDyggve-Melchior-Clausen syndrome protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF09742
+LDON_01	Pfam	protein_match	95085	97451	.	+	.	Parent=LDON_010008800.1:pep;Name=PF09742;signature_desc=Dyggve-Melchior-Clausen syndrome protein
+###
+LDON_01	RATT	gene	98445	100907	.	+	.	ID=LDON_010008900;ratt_ortholog=LmjF.01.0390
+LDON_01	RATT	mRNA	98445	100907	.	+	.	ID=LDON_010008900.1;Parent=LDON_010008900
+LDON_01	RATT	CDS	98445	100907	.	+	0	ID=LDON_010008900.1:CDS:1;Parent=LDON_010008900.1
+###
+LDON_01	.	polypeptide	98445	100907	.	+	.	ID=LDON_010008900.1:pep;Derives_from=LDON_010008900.1;orthologous_to=LmjF.01.0390;ortholog_cluster=ORTHOMCL39;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	101771	103477	.	+	.	ID=LDON_010009000;ratt_ortholog=LmjF.01.0400
+LDON_01	RATT	mRNA	101771	103477	.	+	.	ID=LDON_010009000.1;Parent=LDON_010009000
+LDON_01	RATT	CDS	101771	103477	.	+	0	ID=LDON_010009000.1:CDS:1;Parent=LDON_010009000.1
+###
+LDON_01	.	polypeptide	101771	103477	.	+	.	ID=LDON_010009000.1:pep;Derives_from=LDON_010009000.1;orthologous_to=LmjF.01.0400;ortholog_cluster=ORTHOMCL38;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	104112	105035	.	+	.	ID=LDON_010009100;ratt_ortholog=LmjF.01.0410
+LDON_01	RATT	mRNA	104112	105035	.	+	.	ID=LDON_010009100.1;Parent=LDON_010009100
+LDON_01	RATT	CDS	104112	104404	.	+	0	ID=LDON_010009100.1:CDS:1;Parent=LDON_010009100.1
+LDON_01	RATT	CDS	104594	105035	.	+	1	ID=LDON_010009100.1:CDS:2;Parent=LDON_010009100.1
+###
+LDON_01	.	polypeptide	104112	105035	.	+	.	ID=LDON_010009100.1:pep;Derives_from=LDON_010009100.1;product=term%3DRibosomal protein S7e%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01251;Ontology_term=GO:0005840,GO:0006412,GO:0003735,GO:0005622
+LDON_01	Pfam	protein_match	104133	104486	.	+	.	Parent=LDON_010009100.1:pep;Name=PF01251;signature_desc=Ribosomal protein S7e;Ontology_term=GO:0003735,GO:0006412,GO:0005622,GO:0005840
+###
+LDON_01	.	gap	104405	104592	.	.	.	estimated_length=188;gap_type=within scaffold
+LDON_01	.	contig	104593	106672	.	+	.	Name=LDON_CTG000014
+LDON_01	RATT	gene	105929	106531	.	+	.	ID=LDON_010009200;ratt_ortholog=LmjF.01.0420
+LDON_01	RATT	mRNA	105929	106531	.	+	.	ID=LDON_010009200.1;Parent=LDON_010009200
+LDON_01	RATT	CDS	105929	106531	.	+	0	ID=LDON_010009200.1:CDS:1;Parent=LDON_010009200.1
+###
+LDON_01	.	polypeptide	105929	106531	.	+	.	ID=LDON_010009200.1:pep;Derives_from=LDON_010009200.1;orthologous_to=LmjF.01.0410,LmjF.01.0420;ortholog_cluster=ORTHOMCL3;product=term%3Dribosomal protein S7%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0410|GeneDB:LmjF.01.0420;Ontology_term=GO:0005840,GO:0006412,GO:0003735,GO:0005622
+LDON_01	Pfam	protein_match	105950	106492	.	+	.	Parent=LDON_010009200.1:pep;Name=PF01251;signature_desc=Ribosomal protein S7e;Ontology_term=GO:0003735,GO:0006412,GO:0005622,GO:0005840
+###
+LDON_01	AUGUSTUS	gene	106619	107077	0.94	+	.	ID=LDON_010009300
+LDON_01	AUGUSTUS	mRNA	106619	107077	0.94	+	.	ID=LDON_010009300.1;Parent=LDON_010009300
+LDON_01	AUGUSTUS	CDS	106619	106672	0.94	+	0	ID=LDON_010009300.1:CDS:1;Parent=LDON_010009300.1
+LDON_01	AUGUSTUS	CDS	106772	107077	.	+	0	ID=LDON_010009300.1:CDS:2;Parent=LDON_010009300.1
+###
+LDON_01	.	polypeptide	106619	107077	.	+	.	ID=LDON_010009300.1:pep;Derives_from=LDON_010009300.1;product=term%3DRibosomal protein S7e%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01251;Ontology_term=GO:0005840,GO:0006412,GO:0003735,GO:0005622
+LDON_01	Pfam	protein_match	106670	106939	.	+	.	Parent=LDON_010009300.1:pep;Name=PF01251;signature_desc=Ribosomal protein S7e;Ontology_term=GO:0003735,GO:0006412,GO:0005622,GO:0005840
+###
+LDON_01	.	gap	106673	106771	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	106772	114798	.	+	.	Name=LDON_CTG000015
+LDON_01	RATT	gene	107951	110194	.	+	.	ID=LDON_010009400;ratt_ortholog=LmjF.01.0430
+LDON_01	RATT	mRNA	107951	110194	.	+	.	ID=LDON_010009400.1;Parent=LDON_010009400
+LDON_01	RATT	CDS	107951	110194	.	+	0	ID=LDON_010009400.1:CDS:1;Parent=LDON_010009400.1
+###
+LDON_01	.	polypeptide	107951	110194	.	+	.	ID=LDON_010009400.1:pep;Derives_from=LDON_010009400.1;orthologous_to=LmjF.01.0430;ortholog_cluster=ORTHOMCL37;product=term%3DZinc finger%2C C3HC4 type (RING finger)/Ring finger domain/Zn-finger in ubiquitin-hydrolases and other protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF13923|Pfam:PF13639|Pfam:PF02148;Ontology_term=GO:0008270,GO:0005515
+LDON_01	Pfam	protein_match	109088	109204	.	+	.	Parent=LDON_010009400.1:pep;Name=PF13923;signature_desc=Zinc finger%2C C3HC4 type (RING finger)
+LDON_01	Pfam	protein_match	109088	109207	.	+	.	Parent=LDON_010009400.1:pep;Name=PF13639;signature_desc=Ring finger domain;Ontology_term=GO:0005515,GO:0008270
+LDON_01	Pfam	protein_match	109244	109414	.	+	.	Parent=LDON_010009400.1:pep;Name=PF02148;signature_desc=Zn-finger in ubiquitin-hydrolases and other protein;Ontology_term=GO:0008270
+###
+LDON_01	RATT	gene	111525	113294	.	+	.	ID=LDON_010009500;ratt_ortholog=LmjF.01.0440
+LDON_01	RATT	mRNA	111525	113294	.	+	.	ID=LDON_010009500.1;Parent=LDON_010009500
+LDON_01	RATT	CDS	111525	113294	.	+	0	ID=LDON_010009500.1:CDS:1;Parent=LDON_010009500.1
+###
+LDON_01	.	polypeptide	111525	113294	.	+	.	ID=LDON_010009500.1:pep;Derives_from=LDON_010009500.1;orthologous_to=LmjF.01.0440;ortholog_cluster=ORTHOMCL36;product=term%3DSugar-tranasporters%2C 12 TM%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF05631;Ontology_term=GO:0015689,GO:0015098,GO:0016021
+LDON_01	Pfam	protein_match	112569	112781	.	+	.	Parent=LDON_010009500.1:pep;Name=PF05631;signature_desc=Sugar-tranasporters%2C 12 TM;Ontology_term=GO:0015098,GO:0015689,GO:0016021
+###
+LDON_01	.	gap	114799	114897	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	114898	127485	.	+	.	Name=LDON_CTG000016
+LDON_01	RATT	gene	116363	117019	.	+	.	ID=LDON_010009600;ratt_ortholog=LmjF.01.0450;Name=PNC1
+LDON_01	RATT	mRNA	116363	117019	.	+	.	ID=LDON_010009600.1;Parent=LDON_010009600
+LDON_01	RATT	CDS	116363	117019	.	+	0	ID=LDON_010009600.1:CDS:1;Parent=LDON_010009600.1
+###
+LDON_01	.	polypeptide	116363	117019	.	+	.	ID=LDON_010009600.1:pep;Derives_from=LDON_010009600.1;orthologous_to=LmjF.01.0450;ortholog_cluster=ORTHOMCL35;product=term%3Dnicotinamidase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0450;Dbxref=PDB:3R2J;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	116441	116980	.	+	.	Parent=LDON_010009600.1:pep;Name=PF00857;signature_desc=Isochorismatase family;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	119090	123727	.	+	.	ID=LDON_010009700;ratt_ortholog=LmjF.01.0460
+LDON_01	RATT	mRNA	119090	123727	.	+	.	ID=LDON_010009700.1;Parent=LDON_010009700
+LDON_01	RATT	CDS	119090	123727	.	+	0	ID=LDON_010009700.1:CDS:1;Parent=LDON_010009700.1
+###
+LDON_01	.	polypeptide	119090	123727	.	+	.	ID=LDON_010009700.1:pep;Derives_from=LDON_010009700.1;orthologous_to=LmjF.01.0460;ortholog_cluster=ORTHOMCL34;product=term%3Dconserved protein%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0460
+###
+LDON_01	.	gap	127486	127584	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	127585	132317	.	+	.	Name=LDON_CTG000017
+LDON_01	RATT	gene	128019	130109	.	+	.	ID=LDON_010009800;ratt_ortholog=LmjF.01.0470
+LDON_01	RATT	mRNA	128019	130109	.	+	.	ID=LDON_010009800.1;Parent=LDON_010009800
+LDON_01	RATT	CDS	128019	130109	.	+	0	ID=LDON_010009800.1:CDS:1;Parent=LDON_010009800.1
+###
+LDON_01	.	polypeptide	128019	130109	.	+	.	ID=LDON_010009800.1:pep;Derives_from=LDON_010009800.1;orthologous_to=LDON_010010000.1,LDON_010010100.1,LDON_010010300.1,LmjF.01.0470,LmjF.01.0490,LmjF.01.0500,LmjF.01.0520;ortholog_cluster=ORTHOMCL0;product=term%3Dlong-chain-fatty-acid-CoA ligase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0490|GeneDB:LmjF.01.0520%3Bis_preferred%3Dtrue,term%3Dfatty acyl CoA synthetase 2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0500%3Brank%3D1,term%3Dfatty acyl CoA syntetase 1%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0470%3Brank%3D1;Dbxref=EC:6.2.1.3;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	128346	129692	.	+	.	Parent=LDON_010009800.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	130930	132009	.	+	.	ID=LDON_010009900;ratt_ortholog=LmjF.01.0480
+LDON_01	RATT	mRNA	130930	132009	.	+	.	ID=LDON_010009900.1;Parent=LDON_010009900
+LDON_01	RATT	CDS	130930	132009	.	+	0	ID=LDON_010009900.1:CDS:1;Parent=LDON_010009900.1
+###
+LDON_01	.	polypeptide	130930	132009	.	+	.	ID=LDON_010009900.1:pep;Derives_from=LDON_010009900.1;orthologous_to=LmjF.01.0480;ortholog_cluster=ORTHOMCL33;product=term%3Dbeta eliminating lyase%2Cputative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0480;Dbxref=GI:11466138,CTP:map00260;Ontology_term=GO:0008152,GO:0030170,GO:0006520,GO:0016829,GO:0009058
+LDON_01	Pfam	protein_match	131011	131820	.	+	.	Parent=LDON_010009900.1:pep;Name=PF01212;signature_desc=Beta-eliminating lyase;Ontology_term=GO:0016829,GO:0006520
+LDON_01	Pfam	protein_match	131059	131640	.	+	.	Parent=LDON_010009900.1:pep;Name=PF00266;signature_desc=Aminotransferase class-V;Ontology_term=GO:0008152
+LDON_01	Pfam	protein_match	131086	131481	.	+	.	Parent=LDON_010009900.1:pep;Name=PF00155;signature_desc=Aminotransferase class I and II;Ontology_term=GO:0030170,GO:0009058
+###
+LDON_01	.	gap	132318	132416	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	132417	132957	.	+	.	Name=LDON_CTG000018
+LDON_01	.	gap	132958	133056	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	133057	140158	.	+	.	Name=LDON_CTG000019
+LDON_01	RATT	gene	134257	136353	.	+	.	ID=LDON_010010000;ratt_ortholog=LmjF.01.0490
+LDON_01	RATT	mRNA	134257	136353	.	+	.	ID=LDON_010010000.1;Parent=LDON_010010000
+LDON_01	RATT	CDS	134257	136353	.	+	0	ID=LDON_010010000.1:CDS:1;Parent=LDON_010010000.1
+###
+LDON_01	.	polypeptide	134257	136353	.	+	.	ID=LDON_010010000.1:pep;Derives_from=LDON_010010000.1;orthologous_to=LDON_010009800.1,LDON_010010100.1,LDON_010010300.1,LmjF.01.0470,LmjF.01.0490,LmjF.01.0500,LmjF.01.0520;ortholog_cluster=ORTHOMCL0;product=term%3Dlong-chain-fatty-acid-CoA ligase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0490|GeneDB:LmjF.01.0520%3Bis_preferred%3Dtrue,term%3Dfatty acyl CoA synthetase 2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0500%3Brank%3D1,term%3Dfatty acyl CoA syntetase 1%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0470%3Brank%3D1;Dbxref=EC:6.2.1.3;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	134569	135939	.	+	.	Parent=LDON_010010000.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	137481	139604	.	+	.	ID=LDON_010010100;ratt_ortholog=LmjF.01.0500
+LDON_01	RATT	mRNA	137481	139604	.	+	.	ID=LDON_010010100.1;Parent=LDON_010010100
+LDON_01	RATT	CDS	137481	139604	.	+	0	ID=LDON_010010100.1:CDS:1;Parent=LDON_010010100.1
+###
+LDON_01	.	polypeptide	137481	139604	.	+	.	ID=LDON_010010100.1:pep;Derives_from=LDON_010010100.1;orthologous_to=LDON_010009800.1,LDON_010010000.1,LDON_010010300.1,LmjF.01.0470,LmjF.01.0490,LmjF.01.0500,LmjF.01.0520;ortholog_cluster=ORTHOMCL0;product=term%3Dlong-chain-fatty-acid-CoA ligase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0490|GeneDB:LmjF.01.0520%3Bis_preferred%3Dtrue,term%3Dfatty acyl CoA synthetase 2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0500%3Brank%3D1,term%3Dfatty acyl CoA syntetase 1%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0470%3Brank%3D1;Dbxref=EC:6.2.1.3;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	137856	139190	.	+	.	Parent=LDON_010010100.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	.	gap	140159	140446	.	.	.	estimated_length=288;gap_type=within scaffold
+LDON_01	.	contig	140447	165682	.	+	.	Name=LDON_CTG000020
+LDON_01	.	pseudogene	142903	143516	732	+	.	ID=LDON_010010200:pseudogene;has_internal_stop=true;has_frameshift=true;has_start=true;has_stop=true;Target=LmjF.01.0510:mRNA 1 195;original_prot_length=195
+LDON_01	.	pseudogenic_transcript	142903	143516	.	+	.	ID=LDON_010010200.1;Parent=LDON_010010200:pseudogene
+LDON_01	.	pseudogenic_exon	142903	143061	.	+	.	ID=LDON_010010200.1:pseudogenic_exon:1;Parent=LDON_010010200.1
+LDON_01	.	pseudogenic_exon	143063	143095	.	+	.	ID=LDON_010010200.1:pseudogenic_exon:2;Parent=LDON_010010200.1
+LDON_01	.	pseudogenic_exon	143097	143225	.	+	.	ID=LDON_010010200.1:pseudogenic_exon:3;Parent=LDON_010010200.1
+LDON_01	.	pseudogenic_exon	143248	143388	.	+	.	ID=LDON_010010200.1:pseudogenic_exon:4;Parent=LDON_010010200.1
+LDON_01	.	pseudogenic_exon	143391	143516	.	+	.	ID=LDON_010010200.1:pseudogenic_exon:5;Parent=LDON_010010200.1
+###
+LDON_01	.	polypeptide	142903	143516	.	+	.	ID=LDON_010010200.1:pep;Derives_from=LDON_010010200.1;orthologous_to=LmjF.01.0510;ortholog_cluster=ORTHOMCL32;product=term%3Dfatty acyl CoA synthetase 2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0510;Dbxref=EC:6.2.1.3
+###
+LDON_01	RATT	gene	144066	146213	.	+	.	ID=LDON_010010300;ratt_ortholog=LmjF.01.0520
+LDON_01	RATT	mRNA	144066	146213	.	+	.	ID=LDON_010010300.1;Parent=LDON_010010300
+LDON_01	RATT	CDS	144066	146213	.	+	0	ID=LDON_010010300.1:CDS:1;Parent=LDON_010010300.1
+###
+LDON_01	.	polypeptide	144066	146213	.	+	.	ID=LDON_010010300.1:pep;Derives_from=LDON_010010300.1;orthologous_to=LDON_010009800.1,LDON_010010000.1,LDON_010010100.1,LmjF.01.0470,LmjF.01.0490,LmjF.01.0500,LmjF.01.0520;ortholog_cluster=ORTHOMCL0;product=term%3Dlong-chain-fatty-acid-CoA ligase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0490|GeneDB:LmjF.01.0520%3Bis_preferred%3Dtrue,term%3Dfatty acyl CoA synthetase 2%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0500%3Brank%3D1,term%3Dfatty acyl CoA syntetase 1%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0470%3Brank%3D1;Dbxref=EC:6.2.1.3;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	144453	145796	.	+	.	Parent=LDON_010010300.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	149843	154699	.	+	.	ID=LDON_010010400;ratt_ortholog=LmjF.01.0530
+LDON_01	RATT	mRNA	149843	154699	.	+	.	ID=LDON_010010400.1;Parent=LDON_010010400
+LDON_01	RATT	CDS	149843	154699	.	+	0	ID=LDON_010010400.1:CDS:1;Parent=LDON_010010400.1
+###
+LDON_01	.	polypeptide	149843	154699	.	+	.	ID=LDON_010010400.1:pep;Derives_from=LDON_010010400.1;orthologous_to=LmjF.01.0530;ortholog_cluster=ORTHOMCL31;product=term%3Dlong-chain-fatty-acid-CoA ligase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0530;Dbxref=EC:6.2.1.3;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	151580	151981	.	+	.	Parent=LDON_010010400.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+LDON_01	Pfam	protein_match	153317	154135	.	+	.	Parent=LDON_010010400.1:pep;Name=PF00501;signature_desc=AMP-binding enzyme;Ontology_term=GO:0003824,GO:0008152
+###
+LDON_01	RATT	gene	155702	157744	.	+	.	ID=LDON_010010500;ratt_ortholog=LmjF.01.0540
+LDON_01	RATT	mRNA	155702	157744	.	+	.	ID=LDON_010010500.1;Parent=LDON_010010500
+LDON_01	RATT	CDS	155702	157744	.	+	0	ID=LDON_010010500.1:CDS:1;Parent=LDON_010010500.1
+###
+LDON_01	.	polypeptide	155702	157744	.	+	.	ID=LDON_010010500.1:pep;Derives_from=LDON_010010500.1;orthologous_to=LmjF.01.0540;ortholog_cluster=ORTHOMCL30;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	159239	160345	.	+	.	ID=LDON_010010600;ratt_ortholog=LmjF.01.0550
+LDON_01	RATT	mRNA	159239	160345	.	+	.	ID=LDON_010010600.1;Parent=LDON_010010600
+LDON_01	RATT	CDS	159239	160345	.	+	0	ID=LDON_010010600.1:CDS:1;Parent=LDON_010010600.1
+###
+LDON_01	.	polypeptide	159239	160345	.	+	.	ID=LDON_010010600.1:pep;Derives_from=LDON_010010600.1;orthologous_to=LmjF.01.0550;ortholog_cluster=ORTHOMCL29;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	161422	163296	.	+	.	ID=LDON_010010700;ratt_ortholog=LmjF.01.0560
+LDON_01	RATT	mRNA	161422	163296	.	+	.	ID=LDON_010010700.1;Parent=LDON_010010700
+LDON_01	RATT	CDS	161422	163296	.	+	0	ID=LDON_010010700.1:CDS:1;Parent=LDON_010010700.1
+###
+LDON_01	.	polypeptide	161422	163296	.	+	.	ID=LDON_010010700.1:pep;Derives_from=LDON_010010700.1;orthologous_to=LmjF.01.0560;ortholog_cluster=ORTHOMCL28;product=term%3Dpre-mRNA processing factor 3 (PRP3)/Protein of unknown function (DUF1115)%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF08572|Pfam:PF06544
+LDON_01	Pfam	protein_match	161932	162708	.	+	.	Parent=LDON_010010700.1:pep;Name=PF08572;signature_desc=pre-mRNA processing factor 3 (PRP3)
+LDON_01	Pfam	protein_match	162787	163194	.	+	.	Parent=LDON_010010700.1:pep;Name=PF06544;signature_desc=Protein of unknown function (DUF1115)
+###
+LDON_01	RATT	gene	163914	164894	.	+	.	ID=LDON_010010800;ratt_ortholog=LmjF.01.0570
+LDON_01	RATT	mRNA	163914	164894	.	+	.	ID=LDON_010010800.1;Parent=LDON_010010800
+LDON_01	RATT	CDS	163914	164894	.	+	0	ID=LDON_010010800.1:CDS:1;Parent=LDON_010010800.1
+###
+LDON_01	.	polypeptide	163914	164894	.	+	.	ID=LDON_010010800.1:pep;Derives_from=LDON_010010800.1;orthologous_to=LmjF.01.0570;ortholog_cluster=ORTHOMCL27;product=term%3Dtricarboxylate carrier%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0570;Ontology_term=GO:0016020,GO:0015075,GO:0006811,GO:0055085
+LDON_01	Pfam	protein_match	163950	164888	.	+	.	Parent=LDON_010010800.1:pep;Name=PF03820;signature_desc=Tricarboxylate carrier;Ontology_term=GO:0015075,GO:0006811,GO:0055085,GO:0016020
+###
+LDON_01	.	gap	165683	165781	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	165782	167248	.	+	.	Name=LDON_CTG000021
+LDON_01	AUGUSTUS	gene	165980	167368	1	+	.	ID=LDON_010010900
+LDON_01	AUGUSTUS	mRNA	165980	167368	1	+	.	ID=LDON_010010900.1;Parent=LDON_010010900
+LDON_01	AUGUSTUS	CDS	165980	167248	1	+	0	ID=LDON_010010900.1:CDS:1;Parent=LDON_010010900.1
+LDON_01	AUGUSTUS	CDS	167348	167368	.	+	0	ID=LDON_010010900.1:CDS:2;Parent=LDON_010010900.1
+###
+LDON_01	.	polypeptide	165980	167368	.	+	.	ID=LDON_010010900.1:pep;Derives_from=LDON_010010900.1;orthologous_to=LDON_010011000.1,LmjF.01.0580;ortholog_cluster=ORTHOMCL2;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	167249	167347	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	167348	209095	.	+	.	Name=LDON_CTG000022
+LDON_01	AUGUSTUS	gene	167691	169301	1	+	.	ID=LDON_010011000
+LDON_01	AUGUSTUS	mRNA	167691	169301	1	+	.	ID=LDON_010011000.1;Parent=LDON_010011000
+LDON_01	AUGUSTUS	CDS	167691	169301	1	+	0	ID=LDON_010011000.1:CDS:1;Parent=LDON_010011000.1
+###
+LDON_01	.	polypeptide	167691	169301	.	+	.	ID=LDON_010011000.1:pep;Derives_from=LDON_010011000.1;orthologous_to=LDON_010010900.1,LmjF.01.0580;ortholog_cluster=ORTHOMCL2;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	170301	171575	.	+	.	ID=LDON_010011100;ratt_ortholog=LmjF.01.0590
+LDON_01	RATT	mRNA	170301	171575	.	+	.	ID=LDON_010011100.1;Parent=LDON_010011100
+LDON_01	RATT	CDS	170301	171575	.	+	0	ID=LDON_010011100.1:CDS:1;Parent=LDON_010011100.1
+###
+LDON_01	.	polypeptide	170301	171575	.	+	.	ID=LDON_010011100.1:pep;Derives_from=LDON_010011100.1;orthologous_to=LmjF.01.0590;ortholog_cluster=ORTHOMCL26;product=term%3DKREL1%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0590;Dbxref=EC:6.5.1.3
+LDON_01	Pfam	protein_match	170403	171035	.	+	.	Parent=LDON_010011100.1:pep;Name=PF09414;signature_desc=RNA ligase
+###
+LDON_01	RATT	gene	172651	178107	.	+	.	ID=LDON_010011200;ratt_ortholog=LmjF.01.0600
+LDON_01	RATT	mRNA	172651	178107	.	+	.	ID=LDON_010011200.1;Parent=LDON_010011200
+LDON_01	RATT	CDS	172651	178107	.	+	0	ID=LDON_010011200.1:CDS:1;Parent=LDON_010011200.1
+###
+LDON_01	.	polypeptide	172651	178107	.	+	.	ID=LDON_010011200.1:pep;Derives_from=LDON_010011200.1;orthologous_to=LmjF.01.0600;ortholog_cluster=ORTHOMCL25;product=term%3DRab-GTPase-TBC domain containing protein%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF00566;Ontology_term=GO:0005097,GO:0032313
+LDON_01	Pfam	protein_match	176317	176646	.	+	.	Parent=LDON_010011200.1:pep;Name=PF00566;signature_desc=Rab-GTPase-TBC domain;Ontology_term=GO:0005097,GO:0032313
+LDON_01	Pfam	protein_match	176821	177069	.	+	.	Parent=LDON_010011200.1:pep;Name=PF00566;signature_desc=Rab-GTPase-TBC domain;Ontology_term=GO:0005097,GO:0032313
+###
+LDON_01	RATT	gene	179084	179815	.	+	.	ID=LDON_010011300;ratt_ortholog=LmjF.01.0610
+LDON_01	RATT	mRNA	179084	179815	.	+	.	ID=LDON_010011300.1;Parent=LDON_010011300
+LDON_01	RATT	CDS	179084	179815	.	+	0	ID=LDON_010011300.1:CDS:1;Parent=LDON_010011300.1
+###
+LDON_01	.	polypeptide	179084	179815	.	+	.	ID=LDON_010011300.1:pep;Derives_from=LDON_010011300.1;orthologous_to=LmjF.01.0610;ortholog_cluster=ORTHOMCL24;product=term%3DDNA-damage inducible protein DDI1-like protein%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0610;Ontology_term=GO:0004190,GO:0006508
+LDON_01	Pfam	protein_match	179135	179503	.	+	.	Parent=LDON_010011300.1:pep;Name=PF09668;signature_desc=Aspartyl protease;Ontology_term=GO:0004190,GO:0006508
+LDON_01	Pfam	protein_match	179213	179473	.	+	.	Parent=LDON_010011300.1:pep;Name=PF13650;signature_desc=Aspartyl protease
+LDON_01	Pfam	protein_match	179213	179485	.	+	.	Parent=LDON_010011300.1:pep;Name=PF13975;signature_desc=gag-polyprotein putative aspartyl protease
+LDON_01	Pfam	protein_match	179216	179527	.	+	.	Parent=LDON_010011300.1:pep;Name=PF08284;signature_desc=Retroviral aspartyl protease
+LDON_01	Pfam	protein_match	179699	179809	.	+	.	Parent=LDON_010011300.1:pep;Name=PF14555;signature_desc=UBA-like domain
+###
+LDON_01	RATT	gene	180454	182241	.	+	.	ID=LDON_010011400;ratt_ortholog=LmjF.01.0620
+LDON_01	RATT	mRNA	180454	182241	.	+	.	ID=LDON_010011400.1;Parent=LDON_010011400
+LDON_01	RATT	CDS	180454	182241	.	+	0	ID=LDON_010011400.1:CDS:1;Parent=LDON_010011400.1
+###
+LDON_01	.	polypeptide	180454	182241	.	+	.	ID=LDON_010011400.1:pep;Derives_from=LDON_010011400.1;orthologous_to=LmjF.01.0620;ortholog_cluster=ORTHOMCL23;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	184592	186712	.	+	.	ID=LDON_010011500;ratt_ortholog=LmjF.01.0630
+LDON_01	RATT	mRNA	184592	186712	.	+	.	ID=LDON_010011500.1;Parent=LDON_010011500
+LDON_01	RATT	CDS	184592	186712	.	+	0	ID=LDON_010011500.1:CDS:1;Parent=LDON_010011500.1
+###
+LDON_01	.	polypeptide	184592	186712	.	+	.	ID=LDON_010011500.1:pep;Derives_from=LDON_010011500.1;orthologous_to=LmjF.01.0630;ortholog_cluster=ORTHOMCL22;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	188303	191632	.	+	.	ID=LDON_010011600;ratt_ortholog=LmjF.01.0640
+LDON_01	RATT	mRNA	188303	191632	.	+	.	ID=LDON_010011600.1;Parent=LDON_010011600
+LDON_01	RATT	CDS	188303	191632	.	+	0	ID=LDON_010011600.1:CDS:1;Parent=LDON_010011600.1
+###
+LDON_01	.	polypeptide	188303	191632	.	+	.	ID=LDON_010011600.1:pep;Derives_from=LDON_010011600.1;orthologous_to=LmjF.01.0640;ortholog_cluster=ORTHOMCL21;product=term%3DHSP70-like protein%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0640
+LDON_01	Pfam	protein_match	189458	190357	.	+	.	Parent=LDON_010011600.1:pep;Name=PF00012;signature_desc=Hsp70 protein
+###
+LDON_01	RATT	gene	192591	194075	.	+	.	ID=LDON_010011700;ratt_ortholog=LmjF.01.0650;Name=MPPB
+LDON_01	RATT	mRNA	192591	194075	.	+	.	ID=LDON_010011700.1;Parent=LDON_010011700
+LDON_01	RATT	CDS	192591	194075	.	+	0	ID=LDON_010011700.1:CDS:1;Parent=LDON_010011700.1
+###
+LDON_01	.	polypeptide	192591	194075	.	+	.	ID=LDON_010011700.1:pep;Derives_from=LDON_010011700.1;orthologous_to=LmjF.01.0650;ortholog_cluster=ORTHOMCL20;product=term%3Dmetallo-peptidase%2C Clan ME%2C Family M16%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0650;Dbxref=EC:3.4.24.64
+LDON_01	Pfam	protein_match	192723	193154	.	+	.	Parent=LDON_010011700.1:pep;Name=PF00675;signature_desc=Insulinase (Peptidase family M16)
+LDON_01	Pfam	protein_match	193191	193517	.	+	.	Parent=LDON_010011700.1:pep;Name=PF05193;signature_desc=Peptidase M16 inactive domain
+###
+LDON_01	RATT	gene	195433	199929	.	+	.	ID=LDON_010011800;ratt_ortholog=LmjF.01.0660
+LDON_01	RATT	mRNA	195433	199929	.	+	.	ID=LDON_010011800.1;Parent=LDON_010011800
+LDON_01	RATT	CDS	195433	199929	.	+	0	ID=LDON_010011800.1:CDS:1;Parent=LDON_010011800.1
+###
+LDON_01	.	polypeptide	195433	199929	.	+	.	ID=LDON_010011800.1:pep;Derives_from=LDON_010011800.1;orthologous_to=LmjF.01.0660;ortholog_cluster=ORTHOMCL19;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	200922	201824	.	+	.	ID=LDON_010011900;ratt_ortholog=LmjF.01.0670
+LDON_01	RATT	mRNA	200922	201824	.	+	.	ID=LDON_010011900.1;Parent=LDON_010011900
+LDON_01	RATT	CDS	200922	201824	.	+	0	ID=LDON_010011900.1:CDS:1;Parent=LDON_010011900.1
+###
+LDON_01	.	polypeptide	200922	201824	.	+	.	ID=LDON_010011900.1:pep;Derives_from=LDON_010011900.1;orthologous_to=LmjF.01.0670;ortholog_cluster=ORTHOMCL18;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	pseudogene	205943	208366	3.75e+03	+	.	ID=LDON_010012000:pseudogene;has_internal_stop=false;has_frameshift=false;has_stop=true;Target=LmjF.01.0680:mRNA 2 801;original_prot_length=801
+LDON_01	.	pseudogenic_transcript	205943	208366	.	+	.	ID=LDON_010012000.1;Parent=LDON_010012000:pseudogene
+LDON_01	.	pseudogenic_exon	205943	208366	.	+	.	ID=LDON_010012000.1:pseudogenic_exon:1;Parent=LDON_010012000.1
+###
+LDON_01	.	polypeptide	205943	208366	.	+	.	ID=LDON_010012000.1:pep;Derives_from=LDON_010012000.1;orthologous_to=LmjF.01.0680;ortholog_cluster=ORTHOMCL17;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	209096	209514	.	.	.	estimated_length=419;gap_type=within scaffold
+LDON_01	.	contig	209515	224849	.	+	.	Name=LDON_CTG000023
+LDON_01	RATT	gene	210395	211093	.	+	.	ID=LDON_010012100;ratt_ortholog=LmjF.01.0690
+LDON_01	RATT	mRNA	210395	211093	.	+	.	ID=LDON_010012100.1;Parent=LDON_010012100
+LDON_01	RATT	CDS	210395	211093	.	+	0	ID=LDON_010012100.1:CDS:1;Parent=LDON_010012100.1
+###
+LDON_01	.	polypeptide	210395	211093	.	+	.	ID=LDON_010012100.1:pep;Derives_from=LDON_010012100.1;orthologous_to=LmjF.01.0690;ortholog_cluster=ORTHOMCL16;product=term%3DPLAC8 family%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF04749
+LDON_01	Pfam	protein_match	210617	211006	.	+	.	Parent=LDON_010012100.1:pep;Name=PF04749;signature_desc=PLAC8 family
+###
+LDON_01	RATT	gene	214037	215098	.	+	.	ID=LDON_010012200;ratt_ortholog=LmjF.01.0700
+LDON_01	RATT	mRNA	214037	215098	.	+	.	ID=LDON_010012200.1;Parent=LDON_010012200
+LDON_01	RATT	CDS	214037	215098	.	+	0	ID=LDON_010012200.1:CDS:1;Parent=LDON_010012200.1
+###
+LDON_01	.	polypeptide	214037	215098	.	+	.	ID=LDON_010012200.1:pep;Derives_from=LDON_010012200.1;orthologous_to=LmjF.01.0700;ortholog_cluster=ORTHOMCL15;product=term%3DPLAC8 family%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF04749
+LDON_01	Pfam	protein_match	214226	214888	.	+	.	Parent=LDON_010012200.1:pep;Name=PF04749;signature_desc=PLAC8 family
+###
+LDON_01	RATT	gene	217265	218884	.	+	.	ID=LDON_010012300;ratt_ortholog=LmjF.01.0710
+LDON_01	RATT	mRNA	217265	218884	.	+	.	ID=LDON_010012300.1;Parent=LDON_010012300
+LDON_01	RATT	CDS	217265	218884	.	+	0	ID=LDON_010012300.1:CDS:1;Parent=LDON_010012300.1
+###
+LDON_01	.	polypeptide	217265	218884	.	+	.	ID=LDON_010012300.1:pep;Derives_from=LDON_010012300.1;orthologous_to=LmjF.01.0710;ortholog_cluster=ORTHOMCL14;product=term%3Dubiquitin activating enzyme%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0710;Dbxref=EC:6.3.2.19;Ontology_term=GO:0008641
+LDON_01	Pfam	protein_match	217346	218512	.	+	.	Parent=LDON_010012300.1:pep;Name=PF00899;signature_desc=ThiF family;Ontology_term=GO:0008641
+###
+LDON_01	RATT	gene	219516	224348	.	+	.	ID=LDON_010012400;ratt_ortholog=LmjF.01.0720
+LDON_01	RATT	mRNA	219516	224348	.	+	.	ID=LDON_010012400.1;Parent=LDON_010012400
+LDON_01	RATT	CDS	219516	224348	.	+	0	ID=LDON_010012400.1:CDS:1;Parent=LDON_010012400.1
+###
+LDON_01	.	polypeptide	219516	224348	.	+	.	ID=LDON_010012400.1:pep;Derives_from=LDON_010012400.1;orthologous_to=LmjF.01.0720;ortholog_cluster=ORTHOMCL13;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	224850	224948	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	224949	225565	.	+	.	Name=LDON_CTG000024
+LDON_01	.	gap	225566	225669	.	.	.	estimated_length=104;gap_type=within scaffold
+LDON_01	.	contig	225670	243644	.	+	.	Name=LDON_CTG000025
+LDON_01	RATT	gene	226144	232932	.	+	.	ID=LDON_010012500;ratt_ortholog=LmjF.01.0730;Name=mks6
+LDON_01	RATT	mRNA	226144	232932	.	+	.	ID=LDON_010012500.1;Parent=LDON_010012500
+LDON_01	RATT	CDS	226144	232932	.	+	0	ID=LDON_010012500.1:CDS:1;Parent=LDON_010012500.1
+###
+LDON_01	.	polypeptide	226144	232932	.	+	.	ID=LDON_010012500.1:pep;Derives_from=LDON_010012500.1;orthologous_to=LmjF.01.0730;ortholog_cluster=ORTHOMCL12;product=term%3DMeckel syndrome type 6 protein%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0730
+###
+LDON_01	RATT	gene	233711	235978	.	+	.	ID=LDON_010012600;ratt_ortholog=LmjF.01.0740
+LDON_01	RATT	mRNA	233711	235978	.	+	.	ID=LDON_010012600.1;Parent=LDON_010012600
+LDON_01	RATT	CDS	233711	235978	.	+	0	ID=LDON_010012600.1:CDS:1;Parent=LDON_010012600.1
+###
+LDON_01	.	polypeptide	233711	235978	.	+	.	ID=LDON_010012600.1:pep;Derives_from=LDON_010012600.1;orthologous_to=LmjF.01.0740;ortholog_cluster=ORTHOMCL11;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	237051	241286	.	+	.	ID=LDON_010012700;ratt_ortholog=LmjF.01.0750
+LDON_01	RATT	mRNA	237051	241286	.	+	.	ID=LDON_010012700.1;Parent=LDON_010012700
+LDON_01	RATT	CDS	237051	241286	.	+	0	ID=LDON_010012700.1:CDS:1;Parent=LDON_010012700.1
+###
+LDON_01	.	polypeptide	237051	241286	.	+	.	ID=LDON_010012700.1:pep;Derives_from=LDON_010012700.1;orthologous_to=LmjF.01.0750;ortholog_cluster=ORTHOMCL10;product=term%3Dprotein kinase%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0750;Dbxref=EC:2.7.1.37;Ontology_term=GO:0004672,GO:0006468,GO:0005524
+LDON_01	Pfam	protein_match	240285	240416	.	+	.	Parent=LDON_010012700.1:pep;Name=PF00069;signature_desc=Protein kinase domain;Ontology_term=GO:0004672,GO:0005524,GO:0006468
+###
+LDON_01	RATT	gene	241415	242893	.	+	.	ID=LDON_010012800;ratt_ortholog=LmjF.01.0760
+LDON_01	RATT	mRNA	241415	242893	.	+	.	ID=LDON_010012800.1;Parent=LDON_010012800
+LDON_01	RATT	CDS	241415	242893	.	+	0	ID=LDON_010012800.1:CDS:1;Parent=LDON_010012800.1
+###
+LDON_01	.	polypeptide	241415	242893	.	+	.	ID=LDON_010012800.1:pep;Derives_from=LDON_010012800.1;orthologous_to=LmjF.01.0760;ortholog_cluster=ORTHOMCL9;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	243645	243783	.	.	.	estimated_length=139;gap_type=within scaffold
+LDON_01	.	contig	243784	245693	.	+	.	Name=LDON_CTG000026
+LDON_01	AUGUSTUS	gene	244214	245425	1	+	.	ID=LDON_010012900
+LDON_01	AUGUSTUS	mRNA	244214	245425	1	+	.	ID=LDON_010012900.1;Parent=LDON_010012900
+LDON_01	AUGUSTUS	CDS	244214	245425	1	+	0	ID=LDON_010012900.1:CDS:1;Parent=LDON_010012900.1
+###
+LDON_01	.	polypeptide	244214	245425	.	+	.	ID=LDON_010012900.1:pep;Derives_from=LDON_010012900.1;orthologous_to=LmjF.01.0770,LmjF.01.0780;ortholog_cluster=ORTHOMCL1;product=term%3Deukaryotic initiation factor 4a%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0770|GeneDB:LmjF.01.0780;Ontology_term=GO:0003676,GO:0005524
+LDON_01	Pfam	protein_match	244364	244861	.	+	.	Parent=LDON_010012900.1:pep;Name=PF00270;signature_desc=DEAD/DEAH box helicase;Ontology_term=GO:0003676,GO:0005524
+LDON_01	Pfam	protein_match	244973	245296	.	+	.	Parent=LDON_010012900.1:pep;Name=PF00271;signature_desc=Helicase conserved C-terminal domain
+###
+LDON_01	.	gap	245694	245792	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	245793	247908	.	+	.	Name=LDON_CTG000027
+LDON_01	RATT	gene	247872	249524	.	+	.	ID=LDON_010013000;ratt_ortholog=LmjF.01.0780
+LDON_01	RATT	mRNA	247872	249524	.	+	.	ID=LDON_010013000.1;Parent=LDON_010013000
+LDON_01	RATT	CDS	247872	247908	.	+	0	ID=LDON_010013000.1:CDS:1;Parent=LDON_010013000.1
+LDON_01	RATT	CDS	249097	249524	.	+	2	ID=LDON_010013000.1:CDS:2;Parent=LDON_010013000.1
+###
+LDON_01	.	polypeptide	247872	249524	.	+	.	ID=LDON_010013000.1:pep;Derives_from=LDON_010013000.1;product=term%3Dhypothetical protein
+###
+LDON_01	.	gap	247909	249095	.	.	.	estimated_length=1187;gap_type=within scaffold
+LDON_01	.	contig	249096	250009	.	+	.	Name=LDON_CTG000028
+LDON_01	.	gap	250010	250108	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	250109	253046	.	+	.	Name=LDON_CTG000029
+LDON_01	RATT	gene	251380	252972	.	+	.	ID=LDON_010013100;ratt_ortholog=LmjF.01.0790
+LDON_01	RATT	mRNA	251380	252972	.	+	.	ID=LDON_010013100.1;Parent=LDON_010013100
+LDON_01	RATT	CDS	251380	252972	.	+	0	ID=LDON_010013100.1:CDS:1;Parent=LDON_010013100.1
+###
+LDON_01	.	polypeptide	251380	252972	.	+	.	ID=LDON_010013100.1:pep;Derives_from=LDON_010013100.1;orthologous_to=LmjF.01.0790;ortholog_cluster=ORTHOMCL8;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	.	gap	253047	253145	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	253146	254550	.	+	.	Name=LDON_CTG000030
+LDON_01	.	gap	254551	254649	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	254650	277341	.	+	.	Name=LDON_CTG000031
+LDON_01	.	pseudogene	255445	256965	2.51e+03	+	.	ID=LDON_010013200:pseudogene;has_internal_stop=false;has_frameshift=false;has_stop=true;Target=LmjF.01.0800:mRNA 2 510;original_prot_length=510
+LDON_01	.	pseudogenic_transcript	255445	256965	.	+	.	ID=LDON_010013200.1;Parent=LDON_010013200:pseudogene
+LDON_01	.	pseudogenic_exon	255445	256965	.	+	.	ID=LDON_010013200.1:pseudogenic_exon:1;Parent=LDON_010013200.1
+###
+LDON_01	.	polypeptide	255445	256965	.	+	.	ID=LDON_010013200.1:pep;Derives_from=LDON_010013200.1;orthologous_to=LmjF.01.0800;ortholog_cluster=ORTHOMCL7;product=term%3Dhypothetical protein%2C conserved
+###
+LDON_01	RATT	gene	258418	261471	.	+	.	ID=LDON_010013300;ratt_ortholog=LmjF.01.0810
+LDON_01	RATT	mRNA	258418	261471	.	+	.	ID=LDON_010013300.1;Parent=LDON_010013300
+LDON_01	RATT	CDS	258418	261471	.	+	0	ID=LDON_010013300.1:CDS:1;Parent=LDON_010013300.1
+###
+LDON_01	.	polypeptide	258418	261471	.	+	.	ID=LDON_010013300.1:pep;Derives_from=LDON_010013300.1;orthologous_to=LmjF.01.0810;ortholog_cluster=ORTHOMCL6;product=term%3Dcalcium/potassium channel (CAKC)%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0810;Ontology_term=GO:0015269,GO:0016020,GO:0006813
+LDON_01	Pfam	protein_match	259006	259221	.	+	.	Parent=LDON_010013300.1:pep;Name=PF07885;signature_desc=Ion channel
+LDON_01	Pfam	protein_match	259696	259965	.	+	.	Parent=LDON_010013300.1:pep;Name=PF03493;signature_desc=Calcium-activated BK potassium channel alpha subunit;Ontology_term=GO:0015269,GO:0006813,GO:0016020
+###
+LDON_01	RATT	gene	263038	266538	.	+	.	ID=LDON_010013400;ratt_ortholog=LmjF.01.0820
+LDON_01	RATT	mRNA	263038	266538	.	+	.	ID=LDON_010013400.1;Parent=LDON_010013400
+LDON_01	RATT	CDS	263038	266538	.	+	0	ID=LDON_010013400.1:CDS:1;Parent=LDON_010013400.1
+###
+LDON_01	.	polypeptide	263038	266538	.	+	.	ID=LDON_010013400.1:pep;Derives_from=LDON_010013400.1;orthologous_to=LmjF.01.0820;ortholog_cluster=ORTHOMCL5;product=term%3Dpotassium channel subunit-like protein%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0820
+LDON_01	Pfam	protein_match	263911	264099	.	+	.	Parent=LDON_010013400.1:pep;Name=PF07885;signature_desc=Ion channel
+###
+LDON_01	AUGUSTUS	gene	269306	270178	1	+	.	ID=LDON_010013500
+LDON_01	AUGUSTUS	mRNA	269306	270178	1	+	.	ID=LDON_010013500.1;Parent=LDON_010013500
+LDON_01	AUGUSTUS	CDS	269306	270178	1	+	0	ID=LDON_010013500.1:CDS:1;Parent=LDON_010013500.1
+###
+LDON_01	.	polypeptide	269306	270178	.	+	.	ID=LDON_010013500.1:pep;Derives_from=LDON_010013500.1;orthologous_to=LmjF.01.0830;ortholog_cluster=ORTHOMCL4;product=term%3Dmetallo-peptidase%2C Clan MA(E)%2C Family M3%3Bevidence%3DIEA%3Bwith%3DGeneDB:LmjF.01.0830;Dbxref=EC:3.4.15.-;Ontology_term=GO:0004222,GO:0006508
+LDON_01	Pfam	protein_match	269315	270073	.	+	.	Parent=LDON_010013500.1:pep;Name=PF01432;signature_desc=Peptidase family M3;Ontology_term=GO:0004222,GO:0006508
+###
+LDON_01	AUGUSTUS	gene	270196	270483	1	+	.	ID=LDON_010013600
+LDON_01	AUGUSTUS	mRNA	270196	270483	1	+	.	ID=LDON_010013600.1;Parent=LDON_010013600
+LDON_01	AUGUSTUS	CDS	270196	270483	1	+	0	ID=LDON_010013600.1:CDS:1;Parent=LDON_010013600.1
+###
+LDON_01	.	polypeptide	270196	270483	.	+	.	ID=LDON_010013600.1:pep;Derives_from=LDON_010013600.1;product=term%3DPeptidase family M3%2C putative%3Bevidence%3DIEA%3Bwith%3DPfam:PF01432;Ontology_term=GO:0004222,GO:0006508
+LDON_01	Pfam	protein_match	270202	270465	.	+	.	Parent=LDON_010013600.1:pep;Name=PF01432;signature_desc=Peptidase family M3;Ontology_term=GO:0004222,GO:0006508
+###
+LDON_01	AUGUSTUS	gene	271250	271639	0.99	+	.	ID=LDON_010013700
+LDON_01	AUGUSTUS	mRNA	271250	271639	0.99	+	.	ID=LDON_010013700.1;Parent=LDON_010013700
+LDON_01	AUGUSTUS	CDS	271250	271639	0.99	+	0	ID=LDON_010013700.1:CDS:1;Parent=LDON_010013700.1
+###
+LDON_01	.	polypeptide	271250	271639	.	+	.	ID=LDON_010013700.1:pep;Derives_from=LDON_010013700.1;product=term%3Dhypothetical protein
+###
+LDON_01	.	gap	277342	277440	.	.	.	estimated_length=99;gap_type=within scaffold
+LDON_01	.	contig	277441	278147	.	+	.	Name=LDON_CTG000032
+LDON_01	.	gap	278148	280635	.	.	.	estimated_length=2488;gap_type=within scaffold
+LDON_01	.	contig	280636	283432	.	+	.	Name=LDON_CTG000033

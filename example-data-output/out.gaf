@@ -1,0 +1,88 @@
+!gaf-version: 1.0
+Companion	LDON_010005200	LDON_010005200		GO:0003777	GO_REF:0000002	IEA	Pfam:PF00225	F	Kinesin-13 1, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005200	LDON_010005200		GO:0005524	GO_REF:0000002	IEA	Pfam:PF00225	F	Kinesin-13 1, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005200	LDON_010005200		GO:0007018	GO_REF:0000002	IEA	Pfam:PF00225	P	Kinesin-13 1, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005200	LDON_010005200		GO:0008017	GO_REF:0000002	IEA	Pfam:PF00225	F	Kinesin-13 1, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005400	LDON_010005400		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00289	F	carboxylase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005400	LDON_010005400		GO:0005524	GO_REF:0000002	IEA	Pfam:PF02786	F	carboxylase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005400	LDON_010005400		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00289	P	carboxylase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005400	LDON_010005400		GO:0008716	GO_REF:0000002	IEA	Pfam:PF07478	F	carboxylase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005400	LDON_010005400		GO:0016874	GO_REF:0000002	IEA	Pfam:PF02785	F	carboxylase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005800	LDON_010005800		GO:0005975	GO_REF:0000002	IEA	Pfam:PF01531	P	Glycosyl transferase family 11, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005800	LDON_010005800		GO:0008107	GO_REF:0000002	IEA	Pfam:PF01531	F	Glycosyl transferase family 11, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005800	LDON_010005800		GO:0016020	GO_REF:0000002	IEA	Pfam:PF01531	C	Glycosyl transferase family 11, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005900	LDON_010005900		GO:0009055	GO_REF:0000002	IEA	Pfam:PF00462	F	monothiol glutaredoxin, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005900	LDON_010005900		GO:0015035	GO_REF:0000002	IEA	Pfam:PF00462	F	monothiol glutaredoxin, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010005900	LDON_010005900		GO:0045454	GO_REF:0000002	IEA	Pfam:PF00462	P	monothiol glutaredoxin, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010006600	LDON_010006600		GO:0005247	GO_REF:0000002	IEA	Pfam:PF00654	F	CLC-type chloride channel, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010006600	LDON_010006600		GO:0006821	GO_REF:0000002	IEA	Pfam:PF00654	P	CLC-type chloride channel, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010006600	LDON_010006600		GO:0016020	GO_REF:0000002	IEA	Pfam:PF00654	C	CLC-type chloride channel, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010006600	LDON_010006600		GO:0055085	GO_REF:0000002	IEA	Pfam:PF00654	P	CLC-type chloride channel, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007000	LDON_010007000		GO:0000413	GO_REF:0000002	IEA	Pfam:PF00160	P	cyclophilin 12, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007000	LDON_010007000		GO:0003755	GO_REF:0000002	IEA	Pfam:PF00160	F	cyclophilin 12, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007000	LDON_010007000		GO:0006457	GO_REF:0000002	IEA	Pfam:PF00160	P	cyclophilin 12, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007200	LDON_010007200		GO:0003677	GO_REF:0000002	IEA	Pfam:PF00176	F	DNA excision/repair protein SNF2, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007200	LDON_010007200		GO:0005524	GO_REF:0000002	IEA	Pfam:PF00176	F	DNA excision/repair protein SNF2, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007500	LDON_010007500		GO:0045454	GO_REF:0000002	IEA	Pfam:PF00085	P	thioredoxin, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007600	LDON_010007600		GO:0001522	GO_REF:0000002	IEA	Pfam:PF00849	P	pseudouridylate synthase-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007600	LDON_010007600		GO:0003723	GO_REF:0000002	IEA	Pfam:PF00849	F	pseudouridylate synthase-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007600	LDON_010007600		GO:0009451	GO_REF:0000002	IEA	Pfam:PF00849	P	pseudouridylate synthase-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007600	LDON_010007600		GO:0009982	GO_REF:0000002	IEA	Pfam:PF00849	F	pseudouridylate synthase-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007900	LDON_010007900		GO:0005737	GO_REF:0000002	IEA	Pfam:PF02833	C	acidocalcisomal exopolyphosphatase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010007900	LDON_010007900		GO:0016462	GO_REF:0000002	IEA	Pfam:PF02833	F	acidocalcisomal exopolyphosphatase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010008300	LDON_010008300		GO:0005743	GO_REF:0000002	IEA	Pfam:PF03650	C	Uncharacterised protein family (UPF0041), putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010008300	LDON_010008300		GO:0006850	GO_REF:0000002	IEA	Pfam:PF03650	P	Uncharacterised protein family (UPF0041), putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009100	LDON_010009100		GO:0003735	GO_REF:0000002	IEA	Pfam:PF01251	F	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009100	LDON_010009100		GO:0005622	GO_REF:0000002	IEA	Pfam:PF01251	C	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009100	LDON_010009100		GO:0005840	GO_REF:0000002	IEA	Pfam:PF01251	C	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009100	LDON_010009100		GO:0006412	GO_REF:0000002	IEA	Pfam:PF01251	P	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009200	LDON_010009200		GO:0003735	GO_REF:0000002	IEA	Pfam:PF01251	F	ribosomal protein S7, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009200	LDON_010009200		GO:0005622	GO_REF:0000002	IEA	Pfam:PF01251	C	ribosomal protein S7, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009200	LDON_010009200		GO:0005840	GO_REF:0000002	IEA	Pfam:PF01251	C	ribosomal protein S7, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009200	LDON_010009200		GO:0006412	GO_REF:0000002	IEA	Pfam:PF01251	P	ribosomal protein S7, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009300	LDON_010009300		GO:0003735	GO_REF:0000002	IEA	Pfam:PF01251	F	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009300	LDON_010009300		GO:0005622	GO_REF:0000002	IEA	Pfam:PF01251	C	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009300	LDON_010009300		GO:0005840	GO_REF:0000002	IEA	Pfam:PF01251	C	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009300	LDON_010009300		GO:0006412	GO_REF:0000002	IEA	Pfam:PF01251	P	Ribosomal protein S7e, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009400	LDON_010009400		GO:0008270	GO_REF:0000002	IEA	Pfam:PF13639|Pfam:PF02148	F	Zinc finger, C3HC4 type (RING finger)/Ring finger domain/Zn-finger in ubiquitin-hydrolases and other protein, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009500	LDON_010009500		GO:0015098	GO_REF:0000002	IEA	Pfam:PF05631	F	Sugar-tranasporters, 12 TM, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009500	LDON_010009500		GO:0015689	GO_REF:0000002	IEA	Pfam:PF05631	P	Sugar-tranasporters, 12 TM, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009500	LDON_010009500		GO:0016021	GO_REF:0000002	IEA	Pfam:PF05631	C	Sugar-tranasporters, 12 TM, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009600	LDON_010009600		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00857	F	nicotinamidase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009600	LDON_010009600		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00857	P	nicotinamidase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009800	LDON_010009800		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00501	F	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009800	LDON_010009800		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00501	P	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009900	LDON_010009900		GO:0006520	GO_REF:0000002	IEA	Pfam:PF01212	P	beta eliminating lyase,putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009900	LDON_010009900		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00266	P	beta eliminating lyase,putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009900	LDON_010009900		GO:0009058	GO_REF:0000002	IEA	Pfam:PF00155	P	beta eliminating lyase,putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009900	LDON_010009900		GO:0016829	GO_REF:0000002	IEA	Pfam:PF01212	F	beta eliminating lyase,putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010009900	LDON_010009900		GO:0030170	GO_REF:0000002	IEA	Pfam:PF00155	F	beta eliminating lyase,putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010000	LDON_010010000		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00501	F	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010000	LDON_010010000		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00501	P	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010100	LDON_010010100		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00501	F	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010100	LDON_010010100		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00501	P	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010300	LDON_010010300		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00501	F	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010300	LDON_010010300		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00501	P	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010400	LDON_010010400		GO:0003824	GO_REF:0000002	IEA	Pfam:PF00501	F	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010400	LDON_010010400		GO:0008152	GO_REF:0000002	IEA	Pfam:PF00501	P	long-chain-fatty-acid-CoA ligase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010800	LDON_010010800		GO:0006811	GO_REF:0000002	IEA	Pfam:PF03820	P	tricarboxylate carrier, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010800	LDON_010010800		GO:0015075	GO_REF:0000002	IEA	Pfam:PF03820	F	tricarboxylate carrier, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010800	LDON_010010800		GO:0016020	GO_REF:0000002	IEA	Pfam:PF03820	C	tricarboxylate carrier, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010010800	LDON_010010800		GO:0055085	GO_REF:0000002	IEA	Pfam:PF03820	P	tricarboxylate carrier, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010011200	LDON_010011200		GO:0005097	GO_REF:0000002	IEA	Pfam:PF00566	F	Rab-GTPase-TBC domain containing protein, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010011200	LDON_010011200		GO:0032313	GO_REF:0000002	IEA	Pfam:PF00566	P	Rab-GTPase-TBC domain containing protein, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010011300	LDON_010011300		GO:0004190	GO_REF:0000002	IEA	Pfam:PF09668	F	DNA-damage inducible protein DDI1-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010011300	LDON_010011300		GO:0006508	GO_REF:0000002	IEA	Pfam:PF09668	P	DNA-damage inducible protein DDI1-like protein		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012300	LDON_010012300		GO:0008641	GO_REF:0000002	IEA	Pfam:PF00899	F	ubiquitin activating enzyme, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012700	LDON_010012700		GO:0004672	GO_REF:0000002	IEA	Pfam:PF00069	F	protein kinase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012700	LDON_010012700		GO:0005524	GO_REF:0000002	IEA	Pfam:PF00069	F	protein kinase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012700	LDON_010012700		GO:0006468	GO_REF:0000002	IEA	Pfam:PF00069	P	protein kinase, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012900	LDON_010012900		GO:0003676	GO_REF:0000002	IEA	Pfam:PF00270	F	eukaryotic initiation factor 4a, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010012900	LDON_010012900		GO:0005524	GO_REF:0000002	IEA	Pfam:PF00270	F	eukaryotic initiation factor 4a, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013300	LDON_010013300		GO:0006813	GO_REF:0000002	IEA	Pfam:PF03493	P	calcium/potassium channel (CAKC), putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013300	LDON_010013300		GO:0015269	GO_REF:0000002	IEA	Pfam:PF03493	F	calcium/potassium channel (CAKC), putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013300	LDON_010013300		GO:0016020	GO_REF:0000002	IEA	Pfam:PF03493	C	calcium/potassium channel (CAKC), putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013500	LDON_010013500		GO:0004222	GO_REF:0000002	IEA	Pfam:PF01432	F	metallo-peptidase, Clan MA(E), Family M3		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013500	LDON_010013500		GO:0006508	GO_REF:0000002	IEA	Pfam:PF01432	P	metallo-peptidase, Clan MA(E), Family M3		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013600	LDON_010013600		GO:0004222	GO_REF:0000002	IEA	Pfam:PF01432	F	Peptidase family M3, putative		gene	taxon:4711	20180824	Companion
+Companion	LDON_010013600	LDON_010013600		GO:0006508	GO_REF:0000002	IEA	Pfam:PF01432	P	Peptidase family M3, putative		gene	taxon:4711	20180824	Companion
