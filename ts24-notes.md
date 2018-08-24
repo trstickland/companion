@@ -8,27 +8,29 @@
 
 `README.md` updated to clarify procedure for running Companion.   Most importantly, it is simplest to
 clone/download the git repo and edit the files in the local directory, and then invoke nextflow with
-the name of a local directory, e.g. if cloned/dpwnloaded into `my_companion_project` then...
+the name of a local directory.
+
+e.g. if cloned/downloaded into `my_companion_project` then...
 ```
 nextflow my_companion_project -profile docker
 ```
 
 ### Using local directories vs. git repo
 
-If invoked with `sanger-pathogens/companion` instead of lcoal directory name, the first time
+If invoked with `sanger-pathogens/companion` instead of local directory name, the first time
 it is run nextflow will clone the repo into `.nextflow/assets/sanger-pathogens`, and thereafter
 it will run using that local clone (hopefully pulling to pick up repo changes??).
 
 This repo-based usage could be really useful for collaborators using their own fork and keeping
 configuration/training data/etc. in it, so they can run Companion on the latest shared version; but
-it's probably too confusuing for an average user who just wnats a local copy to tweak and run.
+it's probably too confusuing for an average user who just wants a local copy to tweak and run.
 
 ### The `dist_dir` parameter
 
 This important parameter is commented out in the example configuration (`example-data/params_default.config`)
 
-It defines the output directory.  It appears that without it, output isn't written to a default location;
-it just isn't written at all (useful for a dry run, though?)
+It defines the output directory.  It appears that without this, output isn't written at all
+(useful for a dry run, though?)
 
 
 ## The `test-project` branch
@@ -47,7 +49,9 @@ test case.
 
 `params_default.config` was renamed `params_example-data.config`, and `params_ts24-test-data.config`
 was created with a symlink `params_default.config -> params_ts24-test-data.config`: a hack to get
-Companion to run with the new parameters:
+Companion to run with the new parameters.
+
+Parameter changes are trivial:
 ```
 $ diff params_example-data.config params_ts24-test-data.config
 3c3
@@ -73,7 +77,7 @@ $ diff params_example-data.config params_ts24-test-data.config
 #### Adding reference data
 
 
-_Entamoeba histolytica_ reference genome `EhistolyticaHM1IMSS_Genome.fasta` 
+_Entamoeba histolytica_ reference genome (`EhistolyticaHM1IMSS_Genome.fasta`)
 and reference data (`EhistolyticaHM1IMSS.zip`) were supplied by Dave S. 
 
 The reference data were prepared as documented in
